@@ -44,7 +44,7 @@ int main () {
  *********************************************************************************************/
 void Algoritmos::run() {
 int iOpccion,iMas,iCodigoBarrio,iCodigoBarrioMas;
-string strNombre;
+string strNombre,strNombre1;
 bool bSalir=false;
 
 
@@ -86,14 +86,14 @@ bool bSalir=false;
 
     // Algoritmo 3 Parte 1
     cout<<"Dame el tipo comida, para visualizar los bares que lo sirven:"<<endl;
-    getline(cin >> ws,strNombre);
+    getline(cin >> ws,strNombre1);
 	cout<<endl<<"ALGORITMO 3: COLA DE BARES POR TIPO DE COMIDA"<<endl;
 	//Comprovamos tipos de comida que existen
     for (bares.moverInicio(),iOpccion=0;bares.finLista()==false;bares.avanzar()) {
     	bares.consultar(bBar);
     	for (strTipos.moverInicio(),bSalir=false;strTipos.finLista()==false;strTipos.avanzar()) {
     		strTipos.consultar(strNombre);
-    		if (strNombre==bBar.getTipoComida())
+    		if (strNombre1==bBar.getTipoComida())
     			bSalir=true;
     	}
     	if (bSalir==false) { //añadimos tipo de comida
@@ -105,9 +105,9 @@ bool bSalir=false;
     //Añadimos dinamicamente listas por tipos de comidas
     for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
     	bares.consultar(bBar);
-    	if (bBar.getTipoComida()==strNombre) {
+    	if (bBar.getTipoComida()==strNombre1) {
     		barTipo.encolar(bBar);
-    		cout<<"inserto:"<<bBar;
+    		//cout<<"inserto:"<<bBar;
     	}
     }
 
