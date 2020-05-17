@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : algoritmos.h
 // Author      : Profesores de la asignatura EDI
-// Version     : 2019/20123asfdsa
+// Version     : 2019/20
 // Copyright   : Your copyright notice
 // Description : clase para realizar algoritmos del proyecto
 //============================================================================
@@ -15,6 +15,7 @@
 #include "via.h"
 #include "listapi.h"
 #include "cola.h"
+#include "bstree.h"
 
 
 class Algoritmos {
@@ -31,6 +32,11 @@ private:
 	ListaPI<via> vias;
 	ListaPI<bar> bares;
 
+	//Arbol con los bares
+	BSTree<string> *bBares;
+
+	ListaPI<bar> *baresOrdenada;
+
 	//Bares con un determinado tipo comida
 	//Cola <bar> barTipo[];
 	Cola <bar> barTipo;    //Cola con los bares que tienen ese tipo de comida
@@ -42,10 +48,25 @@ private:
     // ejecuta todos los algoritmos del proyecto
 	void run ();
 
+	void buscarBar(string calle);
+	void buscarEmpiezaBar(string calle);
+	void escribirCalleBar(string strTipo,string calle);
+	void arbolAFicheroArbol (BSTree<string> *bts, ofstream &f);
+	void arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre="",bool bEntero=false);
+	void arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre="",bool bEntero=false);
+	void escribirBar(string strBar, ofstream &f,string strCalle="",bool bEntero=false);
+	void escribirBaresLista(ofstream &f);
+
+	void anadirBarOrdenado(string strNombre);
+	/*
+	 * Cuenta el número de nodos del árbol
+	 */
+	int numElementos(BSTree<string> *bst);
 public:
 
 	 Algoritmos();
 
+	void arbolAFichero();
 
      // Algoritmo  1 Parte 1, mostrar vías de un barrio:
 	 // Algoritmo  2 Parte 1:

@@ -1,0 +1,333 @@
+ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso.
+Zeri’s Coffee Roas  Pax: 40	 SI 	TAPAS
+Zeppelin  Pax: 42	 SI 	TAPAS
+Zany  Pax: 40	 NO 	
+Zalacain  Pax: 30	 SI 	TAPAS
+ZRRCUS  Pax: 400	 NO 	
+Yuste (Hotel NH Pala  Pax: 60	 SI 	MEDITERRÁNEA
+WyCo  Pax: 40	 SI 	BOCADILLO
+Vulcano  Pax: 45	 SI 	TAPAS
+Volapie  Pax: 30	 SI 	TAPAS
+Viña Grande  Pax: 30	 SI 	TAPAS
+Vilches  Pax: 40	 SI 	TAPAS
+Viceversa  Pax: 25	 SI 	TAPAS
+Versalles  Pax: 20	 NO 	
+Velequile Gastroman�  Pax: 35	 SI 	MEDITERRÁNEA
+Vadepizza  Pax: 40	 SI 	ITALIANA
+VELVET  Pax: 200	 NO 	
+Tápara  Pax: 40	 SI 	TAPAS
+Tu Co-Zina  Pax: 20	 SI 	MEDITERRÁNEA
+Triple 20  Pax: 50	 SI 	TAPAS
+Trinidad  Pax: 35	 SI 	TAPAS
+Torre de Sande  Pax: 60	 SI 	MEDITERRÁNEA
+Tony's bocatas  Pax: 30	 SI 	BOCADILLO
+The Blue Corner Iris  Pax: 50	 NO 	
+Temis 2.0  Pax: 60	 SI 	MEDITERRÁNEA
+Telepizza  Pax: 60	 SI 	ITALIANA
+Tapería Santisteban  Pax: 90	 SI 	TAPAS
+Tal cual  Pax: 35	 SI 	TAPAS
+Taberna del Refugio  Pax: 55	 SI 	TAPAS
+Sueños de Rock  Pax: 40	 NO 	
+Sir Lancelot  Pax: 20	 NO 	
+Singapur  Pax: 55	 SI 	CHINA
+Sibuya Urban Sushiba  Pax: 50	 SI 	JAPONESA
+Servicio al Viajero  Pax: 40	 SI 	TAPAS
+Sanvi Bar  Pax: 40	 SI 	TAPAS
+Santiesteban  Pax: 30	 SI 	TAPAS
+Santa Marta  Pax: 40	 SI 	TAPAS
+San Juan  Pax: 60	 SI 	MEDITERRÁNEA
+Salas  Pax: 40	 SI 	TAPAS
+Sala Barroco  Pax: 100	 NO 	
+Sal y Pimienta  Pax: 80	 SI 	MEDITERRÁNEA
+Romero  Pax: 25	 NO 	
+Rita  Pax: 90	 NO 	
+Rincon De Europa  Pax: 25	 SI 	TAPAS
+Quereles  Pax: 40	 SI 	TAPAS
+Que cocine Pepe  Pax: 30	 SI 	MEDITERRÁNEA
+Puerta de Mérida  Pax: 17	 SI 	MEDITERRÁNEA
+Pub 33  Pax: 70	 NO 	
+Psicopompo  Pax: 30	 NO 	
+Pro-va-lo  Pax: 45	 SI 	MEDITERRÁNEA
+Potosí Vinoteca  Pax: 35	 SI 	TAPAS
+Potosí  Pax: 45	 SI 	TAPAS
+Poppy   Pax: 35	 SI 	TAPAS
+Plata Domínguez  Pax: 40	 SI 	TAPAS
+Pizzería Teleremo  Pax: 40	 SI 	ITALIANA
+Pizzería Bartolo  Pax: 40	 SI 	ITALIANA
+Pizza Móvil  Pax: 30	 SI 	ITALIANA
+Piccola Italia Risto  Pax: 25	 SI 	ITALIANA
+Perhaps  Pax: 40	 SI 	TAPAS
+Pekin  Pax: 90	 SI 	CHINA
+Pasadena  Pax: 60	 SI 	AMERICANA
+Paris Doner Kebab  Pax: 15	 SI 	KEBAB
+Parador de Cáceres  Pax: 90	 SI 	MEDITERRÁNEA
+Pans & Company  Pax: 50	 SI 	BOCADILLO
+Palacio Imperial  Pax: 70	 SI 	CHINA
+Oxígeno  Pax: 100	 NO 	
+Ornella  Pax: 40	 SI 	TAPAS
+Orense  Pax: 48	 SI 	MEDITERRÁNEA
+Orellana  Pax: 80	 SI 	MEDITERRÁNEA
+Oquendo  Pax: 60	 SI 	MEDITERRÁNEA
+Only One  Pax: 40	 SI 	BOCADILLO
+Nuevo Rialto  Pax: 25	 SI 	TAPAS
+Nuevo Cáceres  Pax: 40	 NO 	
+Nieves  Pax: 25	 NO 	
+New Golden  Pax: 40	 SI 	BURGUER
+Neptuno   Pax: 70	 SI 	TAPAS
+Nebbia  Pax: 25	 NO 	
+Más Que Tapas  Pax: 35	 SI 	TAPAS
+Más Cachito  Pax: 16	 SI 	TAPAS
+Mordisquitos  Pax: 40	 SI 	BURGUER
+Montesol  Pax: 40	 SI 	TAPAS
+Monterrey  Pax: 35	 SI 	TAPAS
+Montebianco  Pax: 15	 SI 	HELADERÍA
+Monroy  Pax: 30	 SI 	TAPAS
+Mistura  Pax: 80	 NO 	
+Micro  Pax: 50	 NO 	
+Mesón del Jamón   Pax: 36	 SI 	TAPAS
+Medas La Estación  Pax: 28	 SI 	TAPAS
+McDonald's  Pax: 185	 SI 	BURGUER
+Mastropiero  Pax: 80	 SI 	TAPAS
+Martina  Pax: 40	 NO 	
+Mario & Marieta  Pax: 43	 SI 	MEDITERRÁNEA
+Maria Mandiles  Pax: 60	 NO 	MEDITERRÁNEA
+Manómetro  Pax: 40	 SI 	TAPAS
+Manolo Bakes  Pax: 20	 SI 	PANADERÍA
+Mandía  Pax: 50	 SI 	TAPAS
+Makao  Pax: 40	 NO 	
+Maillard  Pax: 55	 SI 	TAPAS
+Madruelo  Pax: 40	 SI 	MEDITERRÁNEA
+MAWHI  Pax: 90	 NO 	
+L´avenir  Pax: 40	 SI 	
+Los Siete Jardines  Pax: 80	 NO 	
+Los Pájaros   Pax: 28	 NO 	
+Los Portales  Pax: 40	 SI 	TAPAS
+Los Ibéricos  Pax: 40	 SI 	MEDITERRÁNEA
+Los Golfines  Pax: 150	 SI 	MEDITERRÁNEA
+Los Galayos  Pax: 30	 SI 	TAPAS
+Los Baldíos  Pax: 55	 SI 	TAPAS
+Los Arcos  Pax: 28	 SI 	TAPAS
+Los Andares  Pax: 40	 SI 	TAPAS
+Los 80  Pax: 80	 NO 	
+Londres  Pax: 40	 SI 	TAPAS
+Lo Nuestro  Pax: 25	 SI 	TAPAS
+Lizarrán 2  Pax: 30	 SI 	TAPAS
+Lizarrán 1  Pax: 40	 SI 	TAPAS
+Lisboa  Pax: 25	 NO 	
+Liceo  Pax: 50	 SI 	MEDITERRÁNEA
+Leoncio  Pax: 20	 SI 	TAPAS
+Las Macetas   Pax: 40	 SI 	TAPAS
+Las Claras  Pax: 30	 NO 	
+Las Cancelas  Pax: 40	 SI 	TAPAS
+Lambretta  Pax: 50	 NO 	
+Lalola  Pax: 30	 SI 	TAPAS
+La comarca  Pax: 40	 SI 	TAPAS
+La casa del goloso  Pax: 40	 SI 	
+La Ventana  Pax: 45	 NO 	
+La Tía Tula  Pax: 50	 SI 	MEDITERRÁNEA
+La Tula  Pax: 30	 SI 	MEDITERRÁNEA
+La Traviata  Pax: 55	 NO 	
+La Tetería  Pax: 20	 NO 	
+La Teteria (Hotel la  Pax: 20	 SI 	
+La Tertulia  Pax: 35	 SI 	TAPAS
+La Terraza del Prín  Pax: 40	 SI 	TAPAS
+La Tapería  Pax: 40	 SI 	TAPAS
+La Tagliatella  Pax: 100	 SI 	ITALIANA
+La Taberna de Santi  Pax: 16	 SI 	TAPAS
+La Sureña  Pax: 25	 SI 	TAPAS
+La Regenta  Pax: 35	 NO 	
+La Pulperia de Toño  Pax: 35	 SI 	TAPAS
+La Parisina  Pax: 30	 SI 	PANADERÍA
+La Paloma  Pax: 35	 NO 	
+La Morocha   Pax: 22	 SI 	MEDITERRÁNEA
+La Minerva  Pax: 70	 SI 	MEDITERRÁNEA
+La Matilda Taberna C  Pax: 30	 SI 	TAPAS
+La Marina  Pax: 35	 SI 	TAPAS
+La Maltraviesa  Pax: 45	 SI 	MEDITERRÁNEA
+La Malinche  Pax: 30	 SI 	MEJICANA
+La Majá  Pax: 45	 SI 	TAPAS
+La Mafia se sienta a  Pax: 60	 SI 	ITALIANA
+La Lavanderia Street  Pax: 35	 SI 	AMERICANA
+La Habana  Pax: 50	 NO 	
+La Fontana  Pax: 50	 NO 	
+La Estancia  Pax: 50	 SI 	TAPAS
+La Esencia Extremeñ  Pax: 30	 SI 	TAPAS
+La Dehesa  Pax: 40	 SI 	TAPAS
+La Chicha  Pax: 40	 SI 	TAPAS
+La Casa del Poeta  Pax: 25	 SI 	TAPAS
+La Cafetera  Pax: 25	 SI 	TAPAS
+La Cacharrería  Pax: 70	 SI 	TAPAS
+La Caballeriza  Pax: 70	 NO 	
+La Andaluza  Pax: 30	 SI 	TAPAS
+Kiosco Colón  Pax: 30	 NO 	
+Karaoke Guateque  Pax: 100	 NO 	
+Karaoke DI-ALF  Pax: 70	 NO 	
+José Luis  Pax: 60	 SI 	MEDITERRÁNEA
+Jose Marquez  Pax: 40	 SI 	
+Jonā  Pax: 45	 NO 	
+Javier Martín  Pax: 80	 SI 	MEDITERRÁNEA
+Jardín de Ulloa  Pax: 50	 SI 	MEDITERRÁNEA
+Ivanhoe 3.0  Pax: 200	 NO 	
+Hugore  Pax: 40	 SI 	
+Hot Doner Kebab  Pax: 10	 SI 	KEBAB
+Hospital San Pedro d  Pax: 80	 SI 	MEDITERRÁNEA
+Hornos 25  Pax: 45	 SI 	MEDITERRÁNEA
+Homarus  Pax: 60	 SI 	MEDITERRÁNEA
+Havoc  Pax: 30	 SI 	TAPAS
+Granier  Pax: 20	 SI 	PANADERÍA
+Gran Via  Pax: 40	 SI 	MEDITERRÁNEA
+Globo  Pax: 90	 SI 	MEDITERRÁNEA
+Ginos  Pax: 50	 SI 	ITALIANA
+Gastro Bar Bontá  Pax: 30	 SI 	TAPAS
+Garden's  Pax: 35	 NO 	
+Fulgen Tradicion  Pax: 25	 SI 	TAPAS
+Foster's Hollywood  Pax: 30	 SI 	AMERICANA
+Foodie  Pax: 15	 SI 	AMERICANA
+Flores  Pax: 20	 SI 	TAPAS
+Farmacia Legend  Pax: 40	 NO 	
+FanBar  Pax: 55	 SI 	TAPAS
+Ezponda 10  Pax: 25	 SI 	TAPAS
+Eustaquio Blanco  Pax: 80	 SI 	MEDITERRÁNEA
+Esencia  Pax: 45	 SI 	TAPAS
+En Cuchara de Plata  Pax: 20	 SI 	TAPAS
+En Ca Rosi  Pax: 25	 SI 	TAPAS
+Emi  Pax: 20	 SI 	TAPAS
+Emeritus  Pax: 40	 SI 	TAPAS
+El Ultimo Café  Pax: 20	 SI 	TAPAS
+El Tinglao deAlba  Pax: 40	 SI 	MEDITERRÁNEA
+El Señor De La Dehe  Pax: 25	 SI 	TAPAS
+El Rincón de Julio  Pax: 30	 SI 	MEDITERRÁNEA
+El Rincón Burger Pe  Pax: 25	 SI 	BURGUER
+El Rinconcito  Pax: 35	 SI 	TAPAS
+El Rincon  Pax: 40	 SI 	MEDITERRÁNEA
+El Requeté  Pax: 60	 SI 	MEDITERRÁNEA
+El Pirata Bar  Pax: 50	 SI 	TAPAS
+El Pequeño Gin  Pax: 20	 NO 	
+El Pato  Pax: 40	 SI 	TAPAS
+El Patio  Pax: 35	 SI 	TAPAS
+El Paso  Pax: 35	 SI 	TAPAS
+El Olivar   Pax: 45	 SI 	TAPAS
+El Nuevo Mesón  Pax: 40	 SI 	TAPAS
+El Niño  Pax: 35	 SI 	TAPAS
+El Montaito 2  Pax: 50	 SI 	TAPAS
+El Montaito 1  Pax: 60	 SI 	TAPAS
+El Mirador de Galarz  Pax: 80	 SI 	MEDITERRÁNEA
+El Mariscal  Pax: 30	 SI 	TAPAS
+El Lago  Pax: 35	 SI 	TAPAS
+El Halcón Milenario  Pax: 50	 NO 	
+El Gran Café  Pax: 48	 SI 	TAPAS
+El Fogon de Toñi  Pax: 30	 SI 	MEDITERRÁNEA
+El Figón de Eustaqu  Pax: 100	 SI 	MEDITERRÁNEA
+El Encinar  Pax: 110	 SI 	TAPAS
+El Corral de las Cig  Pax: 62	 NO 	
+El Bujio  Pax: 25	 SI 	TAPAS
+El 13 de San Antón   Pax: 45	 SI 	MEDITERRÁNEA
+Eden  Pax: 35	 NO 	
+Doña Jimena  Pax: 20	 SI 	TAPAS
+Dory's  Pax: 55	 SI 	TAPAS
+Doner Kebab Al-turk  Pax: 40	 SI 	KEBAB
+Donde Martín  Pax: 35	 SI 	TAPAS
+Domino's Pizza  Pax: 28	 SI 	ITALIANA
+Dipas  Pax: 25	 SI 	TAPAS
+Dino Burger  Pax: 20	 SI 	BURGUER
+Dallas Brunch  Pax: 25	 SI 	TAPAS
+DIO  Pax: 35	 NO 	
+Cuatro. J  Pax: 25	 SI 	MEDITERRÁNEA
+Corregidor  Pax: 50	 SI 	MEDITERRÁNEA
+Ciudad Deportiva   Pax: 60	 SI 	TAPAS
+Chocolatería Valor  Pax: 40	 SI 	
+Chocolat's  Pax: 40	 SI 	
+Chino Oriente  Pax: 80	 SI 	CHINA
+Chef Pan  Pax: 30	 SI 	TAPAS
+Charlotte  Pax: 40	 SI 	TAPAS
+Centro de Servicios   Pax: 48	 SI 	TAPAS
+Centro  Pax: 30	 SI 	TAPAS
+Cauria  Pax: 30	 SI 	TAPAS
+Cataleya  Pax: 40	 SI 	TAPAS
+Casa Mijhaeli  Pax: 20	 SI 	MEDITERRÁNEA
+Casa Don Fernando  Pax: 40	 SI 	MEDITERRÁNEA
+Casa Diego  Pax: 40	 SI 	MEDITERRÁNEA
+Carpe Diem  Pax: 60	 NO 	
+Carlos V  Pax: 60	 SI 	MEDITERRÁNEA
+Carey  Pax: 40	 SI 	TAPAS
+Capricho Habanero  Pax: 20	 SI 	TAPAS
+Capitán Haddock   Pax: 100	 NO 	
+Cameron  Pax: 150	 NO 	
+Camelot Cafés y Tap  Pax: 40	 SI 	TAPAS
+Cambalache  Pax: 60	 NO 	
+Burgos  Pax: 45	 NO 	
+Burger King 3  Pax: 50	 SI 	BURGUER
+Burger King 2  Pax: 100	 SI 	BURGUER
+Burger King 1  Pax: 80	 SI 	BURGUER
+Bulevar  Pax: 40	 NO 	
+Buddha Tapas&Copas  Pax: 40	 SI 	TAPAS
+Bouquet  Pax: 35	 SI 	TAPAS
+Boogaloo  Pax: 50	 NO 	
+Bohemia  Pax: 20	 NO 	
+Bodeguilla  Pax: 30	 SI 	TAPAS
+Big House 2  Pax: 50	 SI 	CHINA
+Big House 1  Pax: 90	 SI 	CHINA
+Beluga  Pax: 40	 SI 	TAPAS
+Belmont Lounge Bar  Pax: 20	 SI 	TAPAS
+Bebe y Come  Pax: 45	 SI 	TAPAS
+Bariloche  Pax: 25	 SI 	TAPAS
+Baco  Pax: 40	 SI 	TAPAS
+BOS  Pax: 40	 SI 	MEDITERRÁNEA
+B-nomio   Pax: 50	 SI 	MEDITERRÁNEA
+Azafran  Pax: 45	 SI 	MEDITERRÁNEA
+Atrio  Pax: 60	 SI 	MEDITERRÁNEA
+Atico Club-Ático Ch  Pax: 40	 NO 	
+Asador La Tahona  Pax: 78	 SI 	MEDITERRÁNEA
+Armando's  Pax: 35	 SI 	TAPAS
+Aquario  Pax: 150	 SI 	MEDITERRÁNEA
+Antojerias  Pax: 40	 SI 	MEDITERRÁNEA
+Amara  Pax: 25	 NO 	
+Alma del Sabor  Pax: 35	 SI 	TAPAS
+Aljibe  Pax: 35	 SI 	MEDITERRÁNEA
+Alfonso IX (Hotel)  Pax: 40	 SI 	MEDITERRÁNEA
+Aldana  Pax: 40	 SI 	MEDITERRÁNEA
+Alcazaba  Pax: 26	 SI 	TAPAS
+AlcaraVán Gastrotec  Pax: 60	 SI 	MEDITERRÁNEA
+Alboroque  Pax: 25	 SI 	TAPAS
+Alborada  Pax: 35	 SI 	MEDITERRÁNEA
+AlBalat  Pax: 80	 SI 	MEDITERRÁNEA
+Al-Andalus 2  Pax: 60	 SI 	TAPAS
+Al-Andalus 1  Pax: 40	 SI 	TAPAS
+Africa  Pax: 30	 SI 	TAPAS
+Adarve  Pax: 30	 SI 	MEDITERRÁNEA
+Abaceria de Juan  Pax: 40	 SI 	MEDITERRÁNEA
+8º Arte  Pax: 35	 SI 	TAPAS
+100 Montaditos  Pax: 50	 SI 	TAPAS
+Total bares del árbol en recorrido iterativo:299
+
+ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)
+Calle Pizarro
+El Pequeño Gin		Pax 20	NO	
+Trinidad		Pax 35	SI	TAPAS
+Tapería Santisteban		Pax 90	SI	TAPAS
+Capitán Haddock 		Pax 100	NO	
+La Habana		Pax 50	NO	
+Mistura		Pax 80	NO	
+Cambalache		Pax 60	NO	
+La Caballeriza		Pax 70	NO	
+
+
+ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)
+Calle Pizarro
+El Pequeño Gin		Pax 20	NO	
+Trinidad		Pax 35	SI	TAPAS
+Tapería Santisteban		Pax 90	SI	TAPAS
+Capitán Haddock 		Pax 100	NO	
+La Habana		Pax 50	NO	
+Mistura		Pax 80	NO	
+Cambalache		Pax 60	NO	
+La Caballeriza		Pax 70	NO	
+
+ALGORITMO 3 Buscar y mostrar un bar junto con el nombre de la vía donde.
+Puerta de Mér,capacidad 17, sirve comida  SI , tipo comida MEDITERRÁNEA, Puerta de Mérida
+
+ALGORITMO 4 Bares cuyos nombres comienzan por una determinada raíz, ordenados por capacidad.
+Burger King 2 pax:100
+Burger King 1 pax:80
+Burger King 3 pax:50
+Burgos pax:45

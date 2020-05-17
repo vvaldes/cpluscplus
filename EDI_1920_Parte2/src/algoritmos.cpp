@@ -31,6 +31,7 @@ using namespace std;
  Autor:Victor Valdes
  *********************************************************************************************/
 int main () {
+
     Algoritmos Algoritmos;  //constructor
 }
 
@@ -44,13 +45,39 @@ int main () {
  *********************************************************************************************/
 void Algoritmos::run() {
 int iOpccion,iMas,iCodigoBarrio,iCodigoBarrioMas;
-string strNombre,strNombre1;
+string strNombre,strNombre1,strTipo;
 bool bSalir=false;
 
 
+	//PARTE 2
+    cout<<"ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso."<<endl;
+    this->arbolAFichero();
+
+    cout<<"ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)"<<endl;
+    //cout<<"Dame el nombre tipo de la vía:"<<endl;
+    //getline(cin >> ws,strTipo);
+    //cout<<"Dame el nombre de la calle:"<<endl;
+    //getline(cin >> ws,strNombre);
+    strTipo="Calle";
+    strNombre="Pizarro";
+    escribirCalleBar(strTipo,strNombre);
+
+
+    cout<<"ALGORITMO 3 Buscar y mostrar un bar junto con el nombre de la vía donde."<<endl;
+    //cout<<"Dame el nombre del bar:"<<endl;
+    //getline(cin >> ws,strNombre);
+    strNombre="Puerta de Mérida";
+    buscarBar(strNombre);
+
+
+    cout<<"ALGORITMO 4 Bares cuyos nombres comienzan por una determinada raíz,ordenados por capacidad."<<endl;
+    //cout<<"Dame el nombre del bar:"<<endl;
+    //getline(cin >> ws,strNombre);
+    strNombre="Bur";
+    buscarEmpiezaBar(strNombre);
 
 	// TODO invovar a todos los algoritmos para que se ejecuten secuencialemente
-
+/*
     // Algoritmo 1 Parte 1
     cout<<"Dame el codigo  del barrio del que quieres ver las vias que contiene:"<<endl;
     //getline(cin >> ws,strNombre);
@@ -162,7 +189,7 @@ bool bSalir=false;
     	if (bBarrio.getCodigoBarrio()==iCodigoBarrioMas)
     		cout<<"Distrito:"<<bBarrio.getDistrito()<<" con:"<<iMas<<" barrios"<<endl;
     }
-
+*/
 }
 
 /********************************************************************************************
@@ -387,6 +414,9 @@ void Algoritmos::cargarDatos() {
         			}
         			//Insertamos bar en orden de via
         			bares.insertar(bBar);
+
+        			//Insertamos también en arbol binario por orden de nombre campo
+        			bBares->insert(bBar.getNombre());
         		}
             }
 
@@ -416,10 +446,231 @@ Algoritmos::Algoritmos() {
 
 
     // TODO reserva de memoria para los atributos
+    bBares = new BSTree<string> ();
+    baresOrdenada=new ListaPI<bar> ();
+
     cargarDatos();
     run();
 }
 
+void Algoritmos::escribirBar(string strBar, ofstream &f,string strCalle,bool bEntero) {
+	string siNo;
+
+    for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
+    	bares.consultar(bBar);
+    	if (bBar.getNombre()==strBar) {
+    		siNo=(bBar.getComida()) ? " SI ":" NO ";
+    		//f<<"\t\t\tPax: "<<bBar.getCapacidad()<<"\t"<<siNo<<"\t"<<bBar.getTipoComida();
+    		if (bEntero)
+    			f<<",capacidad "<<bBar.getCapacidad()<<", sirve comida "<<siNo<<", tipo comida "<<bBar.getTipoComida()<<", "<<strCalle<<endl;
+    		else
+    			f<<"  Pax: "<<bBar.getCapacidad()<<"\t"<<siNo<<"\t"<<bBar.getTipoComida();
+    	}
+
+    	//(bBar.getComida()) ? " SI ":" NO " <<
+    }
+
+}
+
+int Algoritmos::numElementos(BSTree<string> *bst) {
+
+
+	int cuantos = 0;
+
+	if (bst !=NULL) {
+		cuantos = 1 + numElementos(bst->left()) + numElementos (bst->right());
+
+	}
+	return cuantos;
+
+}
+//RECORRIDO INVERSO DERECHO CENTRO Y POR ULTIMO IZQUIERDO
+void Algoritmos::arbolAFicheroArbol(BSTree<string> *bts, ofstream &f) {
+    BSTree<string> *aux;
+
+    if (! bts->empty()) {
+
+    	aux = bts->right();
+        if (aux != NULL) {
+            arbolAFicheroArbol(aux,f);
+        }
+
+        f << bts->root().substr(0,20); //nombre
+        escribirBar(bts->root(),f); //información bar
+        f <<  endl;
+
+        aux = bts->left();
+        if (aux != NULL) {
+            arbolAFicheroArbol(aux,f);
+        }
+
+    }
+}
+
+
+void Algoritmos::arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre,bool bEntero) {
+    BSTree<string> *aux;
+
+    if (! bts->empty()) {
+
+    	aux = bts->right();
+        if (aux != NULL) {
+            arbolAFicheroNombre(aux,f,strNombre,bEntero);
+        }
+
+        if (bts->root()==strNombre) {
+        	f << bts->root().substr(0,14); //nombre
+        	escribirBar(bts->root(),f,strNombre,bEntero); //información bar
+        	f <<  endl;
+        }
+
+        aux = bts->left();
+        if (aux != NULL) {
+            arbolAFicheroNombre(aux,f,strNombre,bEntero);
+        }
+
+    }
+}
+
+void Algoritmos::anadirBarOrdenado(string strNombre){
+	bool bSalir=false;
+
+	for (bares.moverInicio();((bares.finLista()==false) && (bSalir==false));bares.avanzar()) {
+			bares.consultar(bBar);
+			if (bBar.getNombre()==strNombre) {
+				//Insertamos en lista por orden de capacidad
+    			//insertamos bar en orden ASCENDENTE dentro lista por orden de via
+				baresOrdenada->moverInicio();
+				baresOrdenada->consultar(bBarTemp);
+    			bSalir=false;
+    			while((baresOrdenada->finLista()==false) && (bSalir==false)) {
+    				if (bBarTemp.getCapacidad() < bBar.getCapacidad())
+    						bSalir=true; //Si encontrado lugar , se inserta y se sale
+    				else {
+    					baresOrdenada->avanzar();
+    					baresOrdenada->consultar(bBarTemp);
+    				}
+    			}
+    			//Insertamos bar en orden de capacidad
+    			baresOrdenada->insertar(bBar);
+			}
+	}
+
+}
+
+
+void Algoritmos::arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre,bool bEntero) {
+    BSTree<string> *aux;
+    string cadena;
+    int i;
+
+    if (! bts->empty()) {
+
+    	aux = bts->right();
+        if (aux != NULL) {
+        	arbolAFicheroEmpiezaNombre(aux,strNombre,bEntero);
+        }
+
+        cadena=bts->root();
+        i=cadena.find(strNombre,0);
+        if (i!=-1)  //Si empieza por esa subcadena
+        	if (i==0)
+        		anadirBarOrdenado(cadena);
+
+
+        aux = bts->left();
+        if (aux != NULL) {
+        	arbolAFicheroEmpiezaNombre(aux,strNombre,bEntero);
+        }
+
+    }
+}
+
+void Algoritmos::arbolAFichero() {
+
+ofstream fichero("Datos.txt");
+
+	if (!fichero.is_open())
+			cout<<"El fichero Datos.txt, no se puede abrir"<<endl;
+	else
+		if (!bBares->empty()) {
+			fichero<<"ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso."<<endl;
+			arbolAFicheroArbol(bBares,fichero);
+			fichero<<"Total bares del árbol en recorrido iterativo:" << numElementos(bBares)<<endl;
+			fichero.close();
+		}
+
+}
+
+void Algoritmos::escribirCalleBar(string strTipo,string calle) {
+string siNo;
+
+	for (vias.moverInicio();vias.finLista()==false;vias.avanzar()) {
+		vias.consultar(vVia);
+		if ((vVia.getNombre()==calle) && (vVia.getTipo()==strTipo)) {
+			ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
+			fichero<<endl<<"ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)"<<endl;
+
+			//Recorremos todos los vares de esta via
+			fichero<<strTipo<<" "<<vVia.getNombre()<<endl;
+			for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
+					bares.consultar(bBar);
+					if (bBar.getCodigoVia()==vVia.getCodigoVia()) {
+						siNo=(bBar.getComida()) ? "SI":"NO";
+						fichero<<bBar.getNombre()<<"\t\tPax "<<bBar.getCapacidad()<<"\t"<<siNo<<"\t" <<bBar.getTipoComida()<<endl;
+					}
+			}
+			fichero<<endl;
+			fichero.close();
+		}
+	}
+
+}
+
+void Algoritmos::buscarBar(string strNombre) {
+
+ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
+
+	if (!fichero.is_open())
+			cout<<"El fichero Datos.txt, no se puede abrir"<<endl;
+	else
+		if (!bBares->empty()) {
+			fichero<<"ALGORITMO 3 Buscar y mostrar un bar junto con el nombre de la vía donde."<<endl;
+			arbolAFicheroNombre(bBares,fichero,strNombre,true);
+			fichero.close();
+		}
+
+}
+
+void Algoritmos::escribirBaresLista(ofstream &f) {
+
+	if (baresOrdenada!=NULL) {
+		baresOrdenada->moverInicio();
+		while (baresOrdenada->finLista()==false) {
+			baresOrdenada->consultar(bBar);
+			f<<bBar.getNombre()<<" pax:"<<bBar.getCapacidad()<<endl;
+			baresOrdenada->avanzar();
+		}
+	}
+}
+
+void Algoritmos::buscarEmpiezaBar(string strNombre) {
+
+ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
+
+	if (!fichero.is_open())
+			cout<<"El fichero Datos.txt, no se puede abrir"<<endl;
+	else
+		if (!bBares->empty()) {
+			fichero<<"ALGORITMO 4 Bares cuyos nombres comienzan por una determinada raíz, ordenados por capacidad."<<endl;
+			//Generamos estructura lista ordenada
+			arbolAFicheroEmpiezaNombre(bBares,strNombre,false);
+			//Escribimos lista en fichero
+			escribirBaresLista(fichero);
+			fichero.close();
+		}
+
+}
 
 /********************************************************************************************
   Algoritmos::~Algoritmos()
@@ -434,6 +685,12 @@ Algoritmos::~Algoritmos() {
 	barrios.~ListaPI();
 	vias.~ListaPI();
 	bares.~ListaPI();
+
+	if (bBares!=NULL)
+		delete bBares;
+    if (baresOrdenada!=NULL)
+    	delete baresOrdenada;
+
 
 }
 
