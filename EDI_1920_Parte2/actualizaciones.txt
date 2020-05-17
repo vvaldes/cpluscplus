@@ -1,0 +1,13 @@
+A#5 alta# nº de líneas, M#2 Modificaciones# nº de líneas, B#2 Borrados# nº de líneas
+A#5
+La Gambita;30;SI;TAPAS;668402756;10004;4034;2;9.00;24.00
+Casa Pepa;20;SI;TAPAS;668300744;10004;239;21;9.00;24.00
+El Bodegón;20;SI;TAPAS;;10004;2468;12;9.00;24.00
+Varadero;30;SI;TAPAS;;10004;3052;21;7.00;24.00
+Los Templarios;50;SI;TAPAS;606770995;10001;977;6;11.00;24.00
+M#2
+Homarus;100;SI;MEDITERRÁNEA;927235582;10005;3609;3;12.00;01.00
+El Corral de las Cigüeñas;90;NO;;647758245;10003;773;6;13.00;1.00
+B#2
+Vadepizza
+Hornos 25

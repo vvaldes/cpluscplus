@@ -1,0 +1,1228 @@
+om_tipoVia;om_nombreVia;om_longitudVia;om_tieneCodigoVia;om_situadaEnBarrio
+Avda;De España;1100.52;3048;35
+Avda;De España;1100.52;3048;69
+Avda;De La Universidad;2606.91;3425;15
+Avda;De La Universidad;2606.91;3425;18
+Avda;De La Universidad;2606.91;3425;45
+Avda;De La Universidad;2606.91;3425;46
+Avda;De La Universidad;2606.91;3425;75
+Avda;Virgen De Guadalupe;1035.6;537;19
+Avda;Virgen De Guadalupe;1035.6;537;26
+Avda;Virgen De Guadalupe;1035.6;537;30
+Avda;Virgen De Guadalupe;1035.6;537;67
+Avda;Virgen De Guadalupe;1035.6;537;68
+Avda;Virgen De La Montaña;357.04;541;11
+Avda;Virgen De La Montaña;357.04;541;35
+Avda;Virgen De La Montaña;357.04;541;69
+Calle;Huesca;79.93;1006;21
+Calle;Hornillos;99.17;1195;9
+Calle;Alcantara;113.89;12;16
+Calle;Pintores;227.73;1205;8
+Calle;Chile;125.35;127;54
+Calle;Clemente Sanchez Ramos;121.05;132;35
+Calle;Clemente Sanchez Ramos;121.05;132;67
+Calle;Rio Turia;118.69;1335;25
+Calle;Comandante Joaquin Gonzalez;183.22;136;64
+Calle;San Pedro;126.79;1556;8
+Calle;Tintoretto;111.54;162;18
+Calle;Donoso Cortes;171.14;168;10
+Calle;Donoso Cortes;171.14;168;8
+Calle;Duero;70.84;169;25
+Calle;Espadan;79.74;1717;63
+Calle;Rio Ebro;70.63;172;25
+Calle;Aliseda;44.47;19;7
+Calle;Adarve De Santa Ana;78.45;2;65
+Calle;Adarve De Santa Ana;78.45;2;8
+Calle;Hernando Pizarro;77.21;2083;65
+Calle;Garrovillas;159.9;209;5
+Calle;Clavellinas;104.82;2093;8
+Calle;Almonte;131.1;21;25
+Calle;General Ezponda;121.25;211;52
+Calle;General Margallo;525;213;53
+Calle;General Primo De Rivera;129.13;2286;35
+Calle;General Primo De Rivera;129.13;2286;67
+Calle;Valincoso;212.68;272;14
+Calle;Lope De Vega;189.43;284;15
+Calle;Ancha;91.17;32;65
+Calle;Moret;139.44;330;8
+Calle;Santa Lucia;278.53;3367;5
+Calle;Fray Bartolome De Las Casas;124.63;3559;63
+Calle;Abilio Rodriguez Rosillo;290.41;3656;19
+Calle;Parras;229.59;368;8
+Calle;Periodista Sanchez Asensio;83.58;377;69
+Calle;Esquiladores;880.52;3994;58
+Calle;Hilanderas;884.15;3998;58
+Calle;San Justo;440.18;441;15
+Calle;San Justo;440.18;441;16
+Calle;San Justo;440.18;441;53
+Calle;Camino Llano;446.28;611;10
+Calle;Camino Llano;446.28;611;70
+Plaza;De San Juan;305.92;1766;8
+Ronda;De San Francisco;1903.23;1427;24
+Ronda;De San Francisco;1903.23;1427;25
+Ronda;De San Francisco;1903.23;1427;47
+Ronda;De San Francisco;1903.23;1427;70
+Avda;Hernan Cortes;1004.06;2456;19
+Calle;Rio Elba;148.76;217;5
+Calle;Gran Capitan;78.98;229;53
+Calle;Guadalquivir;60.35;231;25
+Calle;Independencia;242.12;252;63
+Calle;Independencia;242.12;252;64
+Calle;Jesus Nazareno;278.58;262;5
+Calle;Sancti Espiritu;80.75;2648;52
+Calle;Sancti Espiritu;80.75;2648;53
+Calle;Sancti Espiritu;80.75;2648;9
+Calle;Amargura;131.21;27;65
+Calle;Luis Grande Baudesson;76.11;285;9
+Calle;Macarena;84.04;289;10
+Calle;Maestro Angel Rodriguez;55.69;293;8
+Calle;Maestro Sanchez Garrido;41.23;294;8
+Calle;Adarve Del Padre Rosalio;181.47;2970;10
+Calle;Hermandad Donantes De Sangre;104.39;3199;11
+Calle;Orion;212.35;3305;36
+Calle;Condes;52.7;3417;65
+Calle;Navas De Tolosa;170.53;342;21
+Calle;Nicaragua;157.79;345;54
+Calle;Menendez Pelayo;57.33;3529;11
+Calle;Ramiro De Maeztu;58.69;3540;11
+Calle;Sande;191.39;3542;9
+Calle;Albacete;57.29;3556;11
+Calle;Camberos;65.11;3569;9
+Calle;Condes De Santa Olalla;39.73;3624;9
+Calle;Adarve De La Estrella;92.6;3667;52
+Calle;Peñas;93.92;369;9
+Calle;San Juan De Avila;214.83;3728;15
+Calle;Plasencia;119.99;388;16
+Calle;Silleros;304.23;4001;58
+Calle;Rio Po;121.05;401;5
+Calle;De La Cruz Roja;163.05;4032;17
+Calle;Claudio Ptolomeo;259.7;4121;59
+Calle;Nicolas Copernico;242.74;4122;59
+Calle;Isaac Peral;224.7;4124;59
+Calle;Miguel Servet;225.12;4125;59
+Calle;Hermanos Lumiere;230.8;4126;59
+Calle;Guillermo Marconi;245.43;4127;59
+Calle;Pitagoras;249.67;4128;59
+Calle;Thomas Alva Edison;243.19;4129;59
+Calle;Albert Einstein;422.9;4130;59
+Calle;Fernando Bravo;116.28;498;69
+Calle;Tiendas;73.93;504;65
+Calle;Tirso De Molina;157.43;505;15
+Calle;Villuercas;68.09;534;62
+Calle;Arco De España;115.82;54;52
+Calle;Virgen De La Misericordia;77.54;540;21
+Calle;Zorrilla;111.4;548;15
+Calle;El Salvador;169.03;675;54
+Calle;La Marañosa;93.11;681;21
+Calle;Santa Gertrudis;104.64;732;53
+Calle;Batalla Del Salado;309.89;74;63
+Calle;San Vicente De Paul;126.26;829;22
+Calle;Bolivia;249.42;83;54
+Calle;Calderon De La Barca;158.98;94;15
+Calle;Rio Miño;137.49;972;25
+Plaza;Del Espiritu Santo;131.42;182;25
+Plaza;Del Doctor Duran;80.96;2558;8
+Plaza;Antonio Canales;286.87;2928;64
+Avda;De Portugal;213.96;1576;22
+Avda;De Portugal;213.96;1576;23
+Avda;Ruta De La Plata;1735.05;1901;29
+Avda;Ruta De La Plata;1735.05;1901;30
+Avda;Ruta De La Plata;1735.05;1901;60
+Avda;Ruta De La Plata;1735.05;1901;68
+Avda;Hernan Cortes;1004.06;2456;63
+Calle;Ceclavin;377.4;104;16
+Calle;Cayo Norbano Flaco;298.2;1040;63
+Calle;Cayo Norbano Flaco;298.2;1040;64
+Calle;Colombia;349.93;133;54
+Calle;Pizarro;103.13;1393;10
+Calle;Pizarro;103.13;1393;8
+Calle;Coria;86.92;144;16
+Calle;Cuba;205.96;150;54
+Calle;Gran Via;162.85;155;52
+Calle;Gran Via;162.85;155;8
+Calle;Ecuador;293.22;173;54
+Calle;Eulogio Blasco;160.05;185;62
+Calle;Roso De Luna;159.42;186;10
+Calle;Roso De Luna;159.42;186;8
+Calle;Fuente Concejo;463.44;193;66
+Calle;Zurbaran;242.89;1985;53
+Calle;Obispo Ciriaco Benavente;177.46;218;35
+Calle;Obispo Ciriaco Benavente;177.46;218;67
+Calle;Adarve Del Obispo Alvarez De Castro;162.99;23;52
+Calle;Guadiana;71;232;25
+Calle;Hoyos;242.69;249;5
+Calle;Barrio Nuevo;474.18;263;53
+Calle;Juan Caldera;345.55;266;64
+Calle;Comandante Sanchez Herrero;74.81;3415;8
+Calle;Medico Sorapan;402.62;3528;11
+Calle;Obispo Segura Saez;187.62;354;35
+Calle;Obispo Segura Saez;187.62;354;67
+Calle;Antonio Reyes Huertas;408.71;3557;11
+Calle;Paneras;70.2;366;52
+Calle;Paneras;70.2;366;8
+Calle;Profesor Hernandez Pacheco;251.64;393;70
+Calle;Molineros;726.05;3992;58
+Calle;Herreros;742.36;3993;58
+Calle;Tejedores;719.15;3995;58
+Calle;Hojalateros;504.35;3996;58
+Calle;Poceros;231.81;3997;58
+Calle;Toneleros;882.28;3999;58
+Calle;Alpargateros;407.7;4000;58
+Calle;Labradores;601.03;4002;58
+Calle;Juan De La Cierva;231.88;4123;59
+Calle;Zaragoza;139.59;76;21
+Calle;Santa Luisa De Marillac;402.79;869;11
+Calle;Santa Luisa De Marillac;402.79;869;24
+Calle;Calatayud;147.87;87;21
+Calle;Sergio Sanchez;101.88;897;8
+Plaza;Marron;220.63;304;10
+Plaza;Marron;220.63;304;69
+Plaza;Marron;220.63;304;8
+Cuesta;Del Marques;87.76;302;65
+Calle;Padre Bayle;126.11;361;53
+Paseo;De Ibarrola;1130.4;3375;61
+Plaza;Del Duque;62.95;1233;52
+Avda;De Las Delicias;807.29;2936;56
+Avda;De Las Delicias;807.29;2936;16
+Avda;De Las Delicias;807.29;2936;17
+Avda;De Las Delicias;807.29;2936;72
+Avda;De Los Chopos;495.1;3779;3
+Calle;Carrera;106;2092;70
+Calle;Amor De Dios;117.5;31;10
+Calle;Jesus Asuncion;178.43;3252;70
+Calle;Piedad;118.68;381;8
+Calle;Piedad;118.68;381;53
+Calle;Turno De Oficio;;4205;24
+Plaza;Mayor;;215;52
+Plaza;De Publio Hurtado;;2933;8
+Plaza;De Las Piñuelas;;3174;52
+Plaza;De Hernan Cortes;;3584;19
+Plaza;Luis Chamizo;;3585;15
+Plaza;De America;;878;35
+Plaza;De America;;878;12
+Plaza;De Los Caldereros;;3322;65
+Plaza;De Los Caldereros;;3322;8
+Avda;El Brocense;571.08;1142;24
+Avda;El Brocense;571.08;1142;70
+Avda;De Alemania;909.36;1219;12
+Avda;De Alemania;909.36;1219;23
+Avda;De Alemania;909.36;1219;26
+Avda;De La Hispanidad;1520.48;1288;22
+Avda;De La Hispanidad;1520.48;1288;24
+Avda;De La Hispanidad;1520.48;1288;25
+Avda;De La Hispanidad;1520.48;1288;54
+Avda;De La Hispanidad;1520.48;1288;73
+Avda;Antonio Hurtado;631.81;1390;11
+Avda;Antonio Hurtado;631.81;1390;22
+Avda;Antonio Hurtado;631.81;1390;73
+Avda;Isabel De Moctezuma;595.15;1635;22
+Avda;Heroes De Baler;1676.95;239;17
+Avda;Heroes De Baler;1676.95;239;18
+Avda;Heroes De Baler;1676.95;239;41
+Avda;Heroes De Baler;1676.95;239;50
+Avda;De Cervantes;1236.54;3071;24
+Avda;De Cervantes;1236.54;3071;25
+Avda;De Cervantes;1236.54;3071;54
+Avda;De Cervantes;1236.54;3071;73
+Avda;Angelita Capdevielle;244.04;36;73
+Avda;El Calerizo;1735.5;3747;78
+Avda;Juan Pablo Ii;1811.47;4018;32
+Avda;Juan Pablo Ii;1811.47;4018;57
+Avda;Juan Pablo Ii;1811.47;4018;71
+Avda;De Las Arenas;3072.87;4143;29
+Avda;De Las Arenas;3072.87;4143;30
+Avda;De Las Arenas;3072.87;4143;48
+Avda;De Las Arenas;3072.87;4143;49
+Avda;De Las Arenas;3072.87;4143;57
+Calle;Caupolican;264.08;120;22
+Calle;San Ignacio;167.63;1394;70
+Calle;Alfonso Ix;240.86;17;64
+Calle;Alfonso Ix;240.86;17;8
+Calle;La Roche Sur Yon;392.85;1962;25
+Calle;Rios Verdes;111.8;2075;52
+Calle;Gomez Becerra;331.89;227;35
+Calle;Gomez Becerra;331.89;227;67
+Calle;Hermandad;150.48;234;35
+Calle;Hervas;279.33;240;7
+Calle;Juan Xxiii;501;268;12
+Calle;Juan Xxiii;501;268;26
+Calle;Pizarros;132.05;3120;1
+Calle;Manuel Pacheco;507.45;3123;48
+Calle;Muñoz Chaves;103.72;333;9
+Calle;Libra;699.5;3379;36
+Calle;Grecia;130.1;3427;23
+Calle;Londres;598.21;3446;30
+Calle;Islas Filipinas;379.68;3591;60
+Calle;Doñana;428.11;3605;29
+Calle;Oaxaca;703.54;3636;32
+Calle;Miguel Angel Orti Belmonte;480.68;3732;50
+Calle;Pozo De La Esmeralda;580.11;3765;77
+Calle;Rio Jaranda;314.07;3895;40
+Calle;Sanguino Michel;809.72;465;12
+Calle;Sanguino Michel;809.72;465;26
+Calle;Cabeza De Vaca;402.69;796;2
+Plaza;De Las Canterias;129.74;1078;15
+Plaza;De Las Canterias;129.74;1078;9
+Plaza;De San Mateo;77.98;3107;65
+Plaza;Obispo Galarza;61.43;353;53
+Ronda;De La Pizarra;520.73;3010;27
+Ronda;De La Pizarra;520.73;3010;32
+Ronda;De La Pizarra;520.73;3010;74
+Avda;San Pedro De Alcantara;221.11;2499;35
+Avda;San Pedro De Alcantara;221.11;2499;67
+Avda;Paris;453.63;3497;30
+Avda;Ermita De San Benito;954.27;3746;78
+Avda;Fuente Regajos;176.12;3931;51
+Calle;El Redoble;126.41;1009;73
+Calle;Cano De Saavedra;113.95;101;64
+Calle;Santa Rosa De Lima;138.94;1015;21
+Calle;De La Consolacion;172.91;1017;10
+Calle;Alzapiernas;35.06;1038;53
+Calle;Alzapiernas;35.06;1038;8
+Calle;Labradoras;74.79;1094;6
+Calle;Alborada;48.44;11;73
+Calle;Reñidero De Gallos;86.15;1120;21
+Calle;Maluquer;137.21;1135;35
+Calle;Castillo;84.56;116;8
+Calle;San Anton;138.26;1161;8
+Calle;San Jorge;253.35;1171;64
+Calle;Cataluña;69.3;118;27
+Calle;Cerandeo;54.84;121;73
+Calle;Covadonga;89.68;1242;24
+Calle;San Juan De Dios;110.51;1285;19
+Calle;Pedro De Valdivia;145.69;1354;2
+Calle;Busquet;130.66;1368;8
+Calle;Santa Barbara;63.15;1419;8
+Calle;Cornudilla;123.89;145;10
+Calle;Costa Rica;75.27;146;54
+Calle;Pavia;86.72;1460;24
+Calle;Rio Darro;58.08;1471;25
+Calle;Damas;167.9;152;10
+Calle;Daoiz;77.45;154;16
+Calle;Barrio De Luna;61.91;1586;53
+Calle;Rio Tamesis;134.17;1610;5
+Calle;Doctor Fleming;257.14;165;19
+Calle;Emilio Herrero;86.92;174;24
+Calle;Trafalgar;89.99;1744;24
+Calle;Españoleto;79;180;17
+Calle;Santa Apolonia;52.54;1833;69
+Calle;Santa Apolonia;52.54;1833;8
+Calle;El Greco;133.74;1854;18
+Calle;Del Mono;65.51;1856;65
+Calle;Federico Ballell;70.24;188;22
+Calle;Fuente Fria;283.07;194;47
+Calle;Fuente Nueva;234.22;195;10
+Calle;Almirante Solano Bote;182.33;20;26
+Calle;Gabriel Y Galan;58.63;201;52
+Calle;Galicia;58.77;202;27
+Calle;Gil Cordero;351.18;222;12
+Calle;Gil Cordero;351.18;222;35
+Calle;Gil Cordero;351.18;222;67
+Calle;Alvaro Lopez Nuñez;268.14;24;11
+Calle;Oporto;162.56;3442;30
+Calle;Florencia;214.95;3448;30
+Calle;Colonia;156.17;3451;30
+Calle;Islas Azores;411.23;3589;60
+Calle;Evora;709.2;3637;32
+Calle;Berna;715.31;3639;32
+Calle;Jerusalen;342.21;3645;32
+Calle;Rafael Lucenqui Martinez;395.78;3737;50
+Calle;Rafael Lucenqui Martinez;395.78;3737;51
+Calle;Camilo Jose Cela;223.7;4037;33
+Calle;Cueva De La Pasiega;179.22;4065;44
+Calle;Viena;297.52;532;19
+Calle;Argentina;398.64;57;12
+Calle;Atahualpa;348.33;65;22
+Plaza;De Los Conquistadores;160.57;4011;11
+Plaza;De Los Conquistadores;160.57;4011;69
+Plaza;De Los Conquistadores;160.57;4011;70
+Plaza;Pereros;52.21;4023;65
+Calle;San Pablo;66.34;2036;65
+Calle;Gallegos;134.78;204;10
+Calle;Roncesvalles;92.73;2082;24
+Calle;San Fermin;49.24;2241;8
+Calle;Goya;82.34;228;17
+Calle;Sinai;37.72;2354;66
+Calle;Hernando De Soto;263.08;238;10
+Calle;Hernando De Soto;263.08;238;69
+Calle;Arco De La Estrella;114.24;2440;52
+Calle;Arco De La Estrella;114.24;2440;65
+Calle;Fortuny;72.54;2468;17
+Calle;Hornos;112.26;247;10
+Calle;Obras Pias De Roco;52.49;2483;65
+Calle;Obras Pias De Roco;52.49;2483;9
+Calle;San Eugenio;74.65;2493;6
+Calle;Jarandilla;46.06;2495;7
+Calle;Inocencio Jimenez;86.96;254;24
+Calle;Jaraiz De La Vera;305.69;259;7
+Calle;Lepanto;92.41;2593;24
+Calle;Juan Blanco;35.32;265;63
+Calle;De La Cruz;108.06;2655;52
+Calle;Julian Murillo;88.02;270;24
+Calle;Jupiter;84.09;271;14
+Calle;Nuestra Señora De La Asuncion;55.79;2713;64
+Calle;Del Sol;96.36;2720;14
+Calle;Lezcano;72.64;277;17
+Calle;Linares;75.55;280;12
+Calle;Virgen Del Rocio;33.06;2804;21
+Calle;Lisboa;45.02;281;19
+Calle;Logrosan;320.63;282;7
+Calle;Alto De Fuente Fria;406.72;2975;47
+Calle;Adarve Del Cristo;170.87;3;65
+Calle;Adarve Del Cristo;170.87;3;9
+Calle;Manga;69.89;300;65
+Calle;Marques De Oquendo;259.58;303;64
+Calle;Rafael Alberti;315.26;3106;48
+Calle;Gabino Muriel;129.51;3114;23
+Calle;Garcia De Paredes;161.24;3117;2
+Calle;Cesar Vallejo;279.66;3125;48
+Calle;Jose Maria Valverde;192.18;3136;48
+Calle;Larra Y Churriguera;56.57;3138;75
+Calle;Eugenio Frutos;101.28;3147;48
+Calle;Alfonso Albala;255.41;3148;48
+Calle;Gonzalo De Vega;212.87;3161;75
+Calle;Andres Alonso;140.54;3165;75
+Calle;Sanchez Varona;42.48;3195;8
+Calle;Monroy;132.21;320;7
+Calle;Mar Baltico;286.04;3203;13
+Calle;Mar Del Norte;176.5;3206;13
+Calle;Mar Egeo;86.29;3207;13
+Calle;Mar Caspio;275.57;3218;13
+Calle;Enrique Diez Canedo;221.98;3223;48
+Calle;Luis Alvarez Lencero;305.81;3225;48
+Calle;Madrid;298.38;3235;6
+Calle;Montanchez;355.9;324;7
+Calle;Torrejoncillo;204.36;3242;7
+Calle;Comarca Del Campo Arañuelo;179.17;3291;55
+Calle;Comarca Valle De La Vera;877.54;3297;55
+Calle;Comarca Valle Del Jerte;351.92;3301;55
+Calle;Virgo;177.82;3304;36
+Calle;Comarca De Los Ibores;210.88;3307;55
+Calle;Motril;81.41;331;35
+Calle;Rodrigo Gil De Hontañon;355.1;3314;75
+Calle;Simon Benito Boxoyo;661.01;3317;50
+Calle;Tomas Pulido Pulido;321.3;3318;50
+Calle;Manuel Castillo Quijada;404.74;3320;50
+Calle;Sancho De Figueroa;399.71;3331;7
+Calle;Cartagena;74.61;3363;6
+Calle;Pedro Caba;136.99;3376;48
+Calle;Napoles;72.13;338;19
+Calle;Comarca De Las Villuercas;295.8;3380;55
+Calle;Comarca Del Ambroz;816.32;3381;55
+Calle;Rio Tamuja;226.55;3383;55
+Calle;Rio Tietar;269.07;3384;55
+Calle;Comarca De Las Hurdes;152.88;3386;55
+Calle;Aries;947.14;3387;36
+Calle;Geminis;174.75;3388;36
+Calle;Navalmoral De La Mata;390.31;339;7
+Calle;Sagitario;354.71;3393;36
+Calle;Piscis;444.48;3395;36
+Calle;Oceano Indico;77.26;3401;13
+Calle;Mar De Aral;271.44;3403;13
+Calle;Mar Cantabrico;104.66;3404;13
+Calle;Mar Tirreno;129.8;3405;13
+Calle;Mar Jonico;192;3406;13
+Calle;Mar Adriatico;82.9;3407;13
+Calle;Navarra;37.75;341;27
+Calle;Escorpio;327.9;3424;36
+Calle;Irlanda;217.5;3429;23
+Calle;Belgica;196.25;3430;23
+Calle;Francia;360.61;3433;23
+Calle;Dinamarca;162.87;3434;23
+Calle;Neptuno;81.36;344;14
+Calle;Mario Vargas Llosa;189.01;3453;48
+Calle;Garcia Marquez;199.03;3454;48
+Calle;Alejo Carpentier;195.86;3455;48
+Calle;Bioy Casares;205.66;3457;48
+Calle;Carlos Callejo;285.82;3459;48
+Calle;Nidos;156.93;346;53
+Calle;Nidos;156.93;346;9
+Calle;Amapola;619.56;3462;49
+Calle;Azucena;698.1;3463;49
+Calle;Clavel;396.79;3464;49
+Calle;Rio Rhin;63.07;3468;5
+Calle;Niza;83.48;347;19
+Calle;De La Abundancia;208.63;3470;6
+Calle;Luis Bravo Hernandez;109.19;3471;4
+Calle;Santa Eulalia;74.05;3477;6
+Calle;Aneto;119.8;3500;22
+Calle;Belen;85.15;3503;9
+Calle;Cabrera;27.21;3506;27
+Calle;Galilea;83.86;3510;9
+Calle;Honduras;91.52;3518;54
+Calle;Ibiza;41.83;3519;27
+Calle;Juan Luis Cordero;93.4;3521;11
+Calle;Isla De Lanzarote;35.68;3522;27
+Calle;Maladeta;118.15;3524;22
+Calle;Malaga;147.08;3525;11
+Calle;Menorca;97.64;3530;27
+Calle;Mulhacen;127.35;3532;22
+Calle;Nazaret;75.3;3533;9
+Calle;Palencia;66.04;3535;11
+Calle;Paraguay;206.27;3536;54
+Calle;Peru;183.34;3537;54
+Calle;Toledo;56.09;3549;11
+Calle;Trujillo;208.79;3550;15
+Calle;Trujillo;208.79;3550;9
+Calle;Badajoz;119.07;3562;11
+Calle;Badalona;105.49;3563;11
+Calle;Felipe Uribarri Vergel;71.8;3572;8
+Calle;Formentera;34.09;3573;27
+Calle;Fuerteventura;52.43;3575;27
+Calle;Mallorca;139.56;3579;27
+Calle;Nuestra Señora De La Montaña;27.78;3580;9
+Calle;Orellana;51;3581;65
+Calle;Oviedo;74.8;3582;6
+Calle;Isla De La Gomera;194.72;3587;60
+Calle;Isla De Sicilia;294.99;3593;60
+Calle;Isla De Cerdeña;82.63;3594;60
+Calle;Isla De Creta;100.67;3596;60
+Calle;Cornalvo;69.46;3597;77
+Calle;Cazorla;27.95;3602;29
+Calle;Uruguay;185.14;3617;54
+Calle;Suiza;100.22;3623;23
+Calle;Palafox;56.59;363;53
+Calle;Brasilia;341.63;3633;32
+Calle;Potosi;340.75;3634;32
+Calle;Estambul;315.76;3642;32
+Calle;Juan Garcia Garcia;308.56;3646;4
+Calle;Juan Garcia Garcia;308.56;3646;6
+Calle;Derechos Humanos;179.15;3661;14
+Calle;Pedro Corbacho;90.82;372;8
+Calle;San Isidro;201.85;3726;2
+Calle;Mar Rojo;110.11;3730;13
+Calle;Andres Burgos;299.65;3735;17
+Calle;Andres Burgos;299.65;3735;50
+Calle;Domingo Sanchez Loro;196.59;3738;50
+Calle;Juan Pablo Forner;118.08;3739;50
+Calle;Benito Arias Montano;225.27;3741;50
+Calle;Andres Valiente Valiente;225.9;3743;50
+Calle;La Esmeralda;142.77;3748;78
+Calle;La Aldihuela;269.98;3749;78
+Calle;Pereros;99.56;375;65
+Calle;Alcor Del Roble;1272.87;3750;78
+Calle;Alcor De Santa Ana Y Don Juan;462.43;3751;78
+Calle;Cerro De Los Romanos;276.32;3753;78
+Calle;Bartolome Jose Gallardo;324.94;3754;50
+Calle;Isla De Rodas;73.46;3755;60
+Calle;Islas Baleares;417.32;3756;60
+Calle;Gloria Fuertes;94.4;3761;48
+Calle;Jose Bermudo Mateos;216.63;3764;50
+Calle;Sierra De San Pedro;166.28;3766;77
+Calle;Los Barruecos;73.71;3769;77
+Calle;Comarca De Granadilla;75.27;3770;77
+Calle;Comarca De Tentudia;64.8;3771;77
+Calle;Comarca De La Serena;69.58;3772;77
+Calle;Mina De La Jayona;67.78;3773;77
+Calle;Proserpina;74.31;3774;77
+Calle;Lusitania;119.31;3776;3
+Calle;El Pradillo;633.18;3828;78
+Calle;Pintor Murillo;56.88;383;64
+Calle;Pintor Velazquez;56.54;384;64
+Calle;Antonio De Nebrija;107.53;3844;50
+Calle;Villamiel;308.66;3847;7
+Calle;Cañamero;201.95;3848;7
+Calle;El Madruelo;32.49;3867;15
+Calle;Marcos Mariño Baez;278.95;3871;42
+Calle;Marcos Mariño Baez;278.95;3871;75
+Calle;Plus Ultra;86.15;389;12
+Calle;Rio Alberche;325.8;3896;40
+Calle;Rio Tormes;325.81;3897;40
+Calle;Rio Aravalle;325.81;3898;40
+Calle;Peñalara;277.15;3901;40
+Calle;El Corchito;117.64;3906;14
+Calle;La Palacina;245.31;3907;14
+Calle;Valdeflores;86.75;3908;14
+Calle;Buitrera;117.27;3909;14
+Calle;Postigo;123.08;391;10
+Calle;Postigo;123.08;391;8
+Calle;Federico Mayor Zaragoza;506.42;3914;38
+Calle;Jose Maria Garcia Lafuente;357.65;3917;38
+Calle;Justino Burgos Gonzalez;126.95;3919;38
+Calle;Miguel Cordero Del Campillo;288.86;3920;38
+Calle;Oscar Arias Sanchez;107.07;3922;38
+Calle;Madre Isabel Larrañaga;269.14;3928;24
+Calle;Caceres El Viejo;172.48;3934;51
+Calle;Beltran;257.24;3940;51
+Calle;Campofrio;270.99;3941;51
+Calle;Castra Caecilia;173.14;3943;51
+Calle;Castra Servilia;172.5;3944;51
+Calle;Angel Sanchez Rodrigo;144.41;3948;38
+Calle;Manuel Redondo Felipe;98.66;3949;38
+Calle;Padre Leocadio;80.05;3950;24
+Calle;Molino Harinero;138.65;3955;47
+Calle;Remedios Buendia;596.14;3964;34
+Calle;Remedios Buendia;596.14;3964;48
+Calle;"Melquiades ""el Gitano""";87.4;3967;34
+Calle;Pilar Ternera;89.25;3968;34
+Calle;Ursula Iguaran;173.05;3969;34
+Calle;"Francisco ""el Hombre""";150.62;3972;34
+Calle;Paraiso Terrenal;165.79;3973;34
+Calle;"Remedios ""la Bella""";146.24;3974;34
+Calle;Maria Pita;84.99;3977;72
+Calle;Madame Curie;94.12;3978;72
+Calle;Teresa De Calcuta;94.12;3979;72
+Calle;Clara Campoamor;75.35;3980;72
+Calle;Camino Mozarabe;763.05;3985;37
+Calle;De La Mesta;204.07;3986;37
+Calle;Caparra;183.83;3989;37
+Calle;Puerta De Merida;82.9;399;10
+Calle;Puerta De Merida;82.9;399;65
+Calle;Jose Reveriego Pedrazo;127.08;4017;15
+Calle;Luna;70.16;4030;14
+Calle;Pluton;28.54;4031;14
+Calle;Jose Echegaray;356.51;4033;33
+Calle;Jacinto Benavente;366.9;4035;33
+Calle;Miguel De Unamuno;309.93;4039;33
+Calle;Azorin;148.98;4040;33
+Calle;Valle-inclan;134.86;4041;33
+Calle;Pio Baroja;384.97;4042;33
+Calle;Pablo Ruiz Picasso;62.03;4045;33
+Calle;Joan Miro;61.96;4046;33
+Calle;Aldeanueva Del Camino;204.06;4050;37
+Calle;Baños De Montemayor;202.68;4051;37
+Calle;Cañaveral;204.07;4052;37
+Calle;Galisteo;386.52;4053;37
+Calle;Granadilla;204.07;4054;37
+Calle;Grimaldo;204.07;4055;37
+Calle;Valdesalor;204.07;4056;37
+Calle;Cueva De Altamira;331.48;4063;44
+Calle;Cueva Del Pindal;183.24;4066;44
+Calle;Reconquista;96.11;407;62
+Calle;Reconquista;96.11;407;64
+Calle;Cueva De La Pileta;166.34;4070;44
+Calle;Cueva Del Escoural;123.99;4071;43
+Calle;Arco De Santa Ana;39.09;4073;65
+Calle;San Benito;66.42;4074;9
+Calle;Reval;64.68;408;19
+Calle;Las Garcillas;164.88;4092;51
+Calle;Mozart;1101.72;4102;43
+Calle;Joaquin Rodrigo;627.23;4110;43
+Calle;Isaac Albeniz;570.99;4111;43
+Calle;Narciso Yepes;295.44;4112;43
+Calle;Francisco Tarrega;322.42;4113;43
+Calle;Felipe Sarro Lara;230.56;4114;25
+Calle;Juanito Barra;87.33;4115;25
+Calle;Mariano Carbajo De Sande;79.98;4116;25
+Calle;Felix Candela Rodriguez;282.1;4117;25
+Calle;Patricio Fernandez;87.45;4118;25
+Calle;Atenas;196.14;4144;32
+Calle;Santo Tomas De Aquino;284.9;4158;42
+Calle;San Agustin;284.59;4159;42
+Calle;Rivera De Curtidores;147.61;416;66
+Calle;Kant;77;4160;42
+Calle;Tolstoi;77;4161;42
+Calle;Kafka;78.44;4162;42
+Calle;Darwin;121.12;4163;42
+Calle;Pascal;340;4164;42
+Calle;Socrates;570.51;4165;41
+Calle;Platon;302.64;4166;41
+Calle;Aristoteles;414.5;4167;41
+Calle;Parmenides;301.62;4168;41
+Calle;Seneca;423.63;4169;41
+Calle;Descartes;406.65;4170;41
+Calle;Tales De Mileto;198.82;4172;41
+Calle;Julio Romero De Torres;110.89;420;18
+Calle;Rondeña;58.79;421;73
+Calle;San Felipe;86.94;428;53
+Calle;San Ildefonso;143.32;433;10
+Calle;San Marquino;91.14;443;14
+Calle;San Vicente;59.89;451;8
+Calle;Sargento Serrano Leite;85.95;469;24
+Calle;Segundo Perez;83.66;470;64
+Calle;Soledad;50.27;477;10
+Calle;Sorolla;83.33;478;17
+Calle;Aperadores;43.57;50;69
+Calle;Tomas De La Huerta;106.91;507;21
+Calle;Torremochada;112.11;508;10
+Calle;Aragon;84.14;51;27
+Calle;Trabajo;109.33;510;62
+Calle;Trabajo;109.33;510;64
+Calle;Arapiles;64.63;52;15
+Calle;Valdes;107.23;522;53
+Calle;Valencia;35.03;523;27
+Calle;Vascongadas;31.55;525;27
+Calle;Velarde;133.98;526;16
+Calle;Arbolito;126.82;53;73
+Calle;Venus;180.79;530;14
+Calle;Vicente Barrantes;103.15;531;64
+Calle;Virgen Del Pilar;136.63;542;11
+Calle;Viriato;111.02;543;64
+Calle;Yuste;67.95;545;64
+Calle;Zapateria;98.58;547;52
+Calle;Zapateria;98.58;547;9
+Calle;Zuloaga;79.54;549;17
+Calle;Alfambra;85.02;597;21
+Calle;Arroyo De La Luz;43.8;61;7
+Calle;Asturias;64.51;63;27
+Calle;Bailen;162.78;72;15
+Calle;Beato Jose Oriol;61.6;75;9
+Calle;Benlliure;69.39;79;18
+Calle;Berruguete;82.76;81;17
+Calle;Betania;146.26;82;15
+Calle;Betania;146.26;82;66
+Calle;Betania;146.26;82;9
+Calle;Calaff;46.35;92;8
+Calle;Vasco Nuñez De Balboa;163.75;984;2
+Avda;De San Blas;263.41;3052;15
+Avda;De San Blas;263.41;3052;9
+Avda;Rio Tiber;599.16;3467;4
+Avda;Rio Tiber;599.16;3467;5
+Avda;Pablo Naranjo Porras;681.11;3809;24
+Calle;Carlos V;67.28;107;64
+Calle;Casas De Cotallo;96.35;114;8
+Calle;Ceres;228.48;122;64
+Calle;Ceres;228.48;122;8
+Calle;Colon;157.96;134;10
+Calle;Colon;157.96;134;69
+Calle;Colon;157.96;134;70
+Calle;Rio Danubio;218.16;1391;5
+Calle;Diego Maria Crehuet;289.29;159;69
+Calle;Santo Domingo;106.08;1968;52
+Calle;Santo Domingo;106.08;1968;53
+Calle;Amberes;516.14;3445;30
+Calle;Profesor Rodriguez Moñino;97.73;3539;35
+Calle;Marrakech;385.31;3628;32
+Calle;Avila;341.99;3629;32
+Calle;Tunez;711.96;3641;32
+Calle;Pedro Romero Mendoza;326.93;3733;50
+Calle;Rio Jerte;315.76;3899;40
+Calle;Jorge Mario Garcia Laguardia;145.17;3921;38
+Calle;Cerro Del Royo;133.03;3937;51
+Calle;Arroyo De La Madre;65.66;3946;51
+Calle;Cueva De Santa Ana;322.19;4059;44
+Calle;Salamanca;238.29;453;22
+Calle;Arequipa;195.04;55;26
+Calle;Mira Al Rio;192.26;657;10
+Calle;Mira Al Rio;192.26;657;47
+Plaza;De San Jorge;102.8;2259;65
+Plaza;De Las Veletas;143.32;2903;65
+Plaza;De La Concepcion;276.71;2937;52
+Plaza;De La Concepcion;276.71;2937;53
+Plaza;De Los Golfines;68.1;3128;65
+Plaza;De España;186.33;3262;1
+Plaza;De Don Quijote;50.28;3509;27
+Plaza;Obra Sindical;22.12;356;64
+Plaza;De Austria;171.59;3658;23
+Plaza;De Finlandia;252.43;3659;23
+Plaza;De Suecia;253.57;3660;23
+Plaza;De Hispanoamerica;54.58;4009;22
+Plaza;De La Audiencia;84.91;66;9
+Ronda;Martin Duque Fuentes;198.05;4021;11
+Ronda;Martin Duque Fuentes;198.05;4021;24
+Avda;Rodriguez De Ledesma;681.5;1125;68
+Avda;Pierre De Coubertin;883.62;3625;32
+Avda;Los Narros;284.61;3903;40
+Avda;De Los Miliarios;779.01;3984;13
+Avda;De Los Miliarios;779.01;3984;37
+Avda;De Los Miliarios;779.01;3984;44
+Calle;Hermanos Romero Ruiz;175.42;1541;24
+Calle;Hermanos Romero Ruiz;175.42;1541;70
+Calle;Garcia De Paredes;181.07;206;64
+Calle;Garcia Plata De Osma;608.53;208;12
+Calle;Garcia Plata De Osma;608.53;208;26
+Calle;Antonio Floriano Cumbreño;388.54;2363;26
+Calle;Leon Leal;316.46;276;11
+Calle;Lima;231.43;278;26
+Calle;Martin Cerezo;187.93;306;53
+Calle;Martin Cerezo;187.93;306;62
+Calle;Cuauhtemoc;156.68;3079;22
+Calle;Sancho De Cabrera;238.3;3093;42
+Calle;Sancho De Cabrera;238.3;3093;75
+Calle;Huaina Capac;189.85;3302;22
+Calle;Acuario;662.24;3389;36
+Calle;Leo;242.23;3390;36
+Calle;Italia;363.42;3426;23
+Calle;Santa Cristina;381.07;3478;6
+Calle;Guatemala;169.16;3514;54
+Calle;Santa Teresa De Jesus;278.16;3545;19
+Calle;Doctor Marañon;77.42;3571;35
+Calle;Isla De Tenerife;324.64;3583;60
+Calle;Monfragüe;326.36;3598;29
+Calle;Miguel Serrano;290.56;3609;48
+Calle;Padre Eladio Mozas;271.1;3626;12
+Calle;Padre Eladio Mozas;271.1;3626;26
+Calle;Cordoba;341.53;3632;32
+Calle;Juan Solano Pedrero;606.53;3643;32
+Calle;"Cayetano Polo ""polito""";315.43;3662;50
+Calle;Ana Mariscal;319.56;3663;50
+Calle;Peña Redonda;195.41;370;62
+Calle;Julian Perate Barroeta;293.05;3736;17
+Calle;Julian Perate Barroeta;293.05;3736;50
+Calle;Isla De La Toja;337.45;3744;60
+Calle;Mejico;238.1;3763;74
+Calle;Fausto Picapiedra;1313.83;3870;41
+Calle;Fausto Picapiedra;1313.83;3870;42
+Calle;Fausto Picapiedra;1313.83;3870;75
+Calle;Del Arenal;284.94;3902;40
+Calle;Pedro Lain Entralgo;293.24;3910;38
+Calle;Frey Nicolas De Ovando;80.34;3951;24
+Calle;Beata Madre Matilde;78.79;3954;24
+Calle;Jose Arcadio Buendia;333.74;3959;34
+Calle;Doctor Alirio Noguera;663.33;3961;34
+Calle;Coronel Aureliano Buendia;429.7;3962;34
+Calle;Gabo;208.88;3965;34
+Calle;Cien Años De Soledad;462.97;3966;34
+Calle;Aureliano Segundo;328.42;3970;34
+Calle;Padre Nicanor;140.8;3971;34
+Calle;Agustina De Aragon;420.66;3975;27
+Calle;Concepcion Arenal;444.29;3976;72
+Calle;Arroyo De Valhondo;606.61;3983;46
+Calle;Cueva Del Conejar;593.28;4058;37
+Calle;Cueva Del Conejar;593.28;4058;44
+Calle;Vivaldi;211.39;4100;43
+Calle;Juan Sebastian Bach;1247.06;4101;43
+Calle;Beethoven;211.83;4103;43
+Calle;Strauss;109.26;4104;43
+Calle;Ravel;245.99;4105;43
+Calle;Bizet;241.49;4106;43
+Avda;De Dulcinea;683.89;3014;27
+Avda;De Dulcinea;683.89;3014;44
+Avda;De Dulcinea;683.89;3014;54
+Avda;Jesus Delgado Valhondo;426.19;3145;48
+Avda;Ramon Y Cajal;280.51;3409;61
+Avda;Enrique Perez Comendador;358.57;3412;17
+Avda;De Extremadura;388.84;3610;17
+Avda;De Extremadura;388.84;3610;51
+Avda;De Extremadura;388.84;3610;56
+Avda;Alfonso Diaz De Bustamante;443.33;3611;60
+Avda;De Los Pilares;803.92;3619;24
+Avda;De Los Cuatro Lugares;1116.11;3873;39
+Avda;De Los Cuatro Lugares;1116.11;3873;50
+Avda;De Las Lavanderas;188.92;3929;20
+Avda;De Las Lavanderas;188.92;3929;21
+Avda;Maria Auxiliadora;517.69;3945;24
+Avda;De Maltravieso;717.35;4057;44
+Calle;Carvajal Lancaster;198.84;1092;64
+Calle;Carreteros;32.79;111;69
+Calle;Hermanos Pinzon;181.08;1126;2
+Calle;Catedratico Antonio Silva;189.82;119;35
+Calle;Alonso De Ojeda;143.83;1235;2
+Calle;Francisco Pizarro;147.78;1350;2
+Calle;Consul Lucio Cornelio Balbo;158.1;143;63
+Calle;Consul Lucio Cornelio Balbo;158.1;143;64
+Calle;Trajano;253.86;1452;62
+Calle;Trajano;253.86;1452;64
+Calle;Diana;70.95;158;62
+Calle;Los Fueros;133.14;1890;64
+Calle;Francisco Paniagua;197.81;192;64
+Calle;Santa Rita;122.1;2001;15
+Calle;Santa Rita;122.1;2001;45
+Calle;Garcia Holguin;143.8;207;64
+Calle;Cristu Benditu;541.19;2235;27
+Calle;Cristu Benditu;541.19;2235;54
+Calle;Godoy;42.05;225;9
+Calle;Fernando De Magallanes;326.23;2397;2
+Calle;Hortelanos;342.21;248;15
+Calle;Hortelanos;342.21;248;45
+Calle;Cristobal Colon;436.26;2850;2
+Calle;Lusitania;112.96;288;64
+Calle;Malpartida De Caceres;470.54;298;7
+Calle;Malpartida De Caceres;470.54;298;71
+Calle;Marte;198.62;305;14
+Calle;Claudio Rodriguez;348.4;3105;48
+Calle;Hernando De Soto;184;3116;2
+Calle;Joselito Romero;290.48;3131;20
+Calle;Angel Fernandez;240.86;3140;20
+Calle;Angel Fernandez;240.86;3140;20
+Calle;Chopin;148.07;4107;43
+Calle;Puccini;212.05;4108;43
+Calle;Verdi;259.5;4119;43
+Calle;Ortega Y Gasset;228.57;4157;42
+Calle;Heraclito;261.78;4171;41
+Calle;Aguas Vivas;79.21;5;21
+Calle;Urano;135.01;520;14
+Calle;Urano;135.01;520;53
+Calle;Venecia;83.56;528;16
+Calle;Encinilla;129.23;861;21
+Calle;Santa Joaquina De Vedruna;306.28;977;35
+Calle;Santa Joaquina De Vedruna;306.28;977;67
+Plaza;De Gante;72.35;665;19
+Ronda;Fuente Rocha;275.63;1496;14
+Ronda;Fuente Rocha;275.63;1496;66
+Calle;Gaspar Muñoz;248.65;3141;20
+Calle;Carolina Coronado;156.97;3143;48
+Calle;Jose Canal Rosado;285.62;3144;48
+Calle;Oceano Artico;495.69;3212;13
+Calle;Oceano Atlantico;485.9;3213;13
+Calle;Oceano Pacifico;235.58;3216;13
+Calle;Moraleja;245.32;3292;16
+Calle;Andalucia;182.02;33;27
+Calle;Henry Tissier;99.91;3312;16
+Calle;Pedro Ulloa Golfin;325.57;3319;50
+Calle;Montehermoso;92.6;3330;7
+Calle;Rio Rodano;765.62;3364;4
+Calle;Rio Rodano;765.62;3364;5
+Calle;Rio Sena;131.37;3365;5
+Calle;Rio Ural;213.95;3369;5
+Calle;Rio Salor;448.7;3371;55
+Calle;Rio Vistula;245.04;3372;5
+Calle;Octavio Paz;441.73;3377;48
+Calle;Pedro De Lorenzo;136.31;3378;48
+Calle;Comarca De Gata;1387.34;3385;55
+Calle;Tauro;250.87;3391;36
+Calle;Capricornio;442.64;3394;36
+Calle;Osa Mayor;510.13;3396;36
+Calle;Obispo Jesus Dominguez;133.08;3400;67
+Calle;Oceano Antartico;159.4;3402;13
+Calle;Narciso Puig Mejias;116.4;3419;15
+Calle;Narciso Puig Mejias;116.4;3419;16
+Calle;Mar Mediterraneo;436.97;3421;13
+Calle;Gran Bretaña;536.99;3428;23
+Calle;Luxemburgo;224.11;3431;23
+Calle;Paises Bajos;271.52;3432;23
+Calle;Coimbra;204.43;3443;30
+Calle;Berlin;192.55;3449;30
+Calle;Pisa;294.36;3450;30
+Calle;Roma;294.02;3452;30
+Calle;Roa Bastos;277.66;3456;48
+Calle;Dionisio Acedo;456.63;3495;12
+Calle;Dionisio Acedo;456.63;3495;26
+Calle;Residencial San Francisco;210.89;3498;47
+Calle;Nueva;231.01;351;53
+Calle;Numancia;148.83;352;64
+Calle;Jose Luis Cotallo;155.06;3534;19
+Calle;Picadero;189.61;3538;9
+Calle;Teide;134.33;3548;22
+Calle;Arturo Aranguren;159.11;3558;11
+Calle;Botanico Rivas Mateos;225.06;3566;68
+Calle;Isla De La Palma;402.82;3586;60
+Calle;Isla De Hierro;263.6;3588;60
+Calle;Isla De Corcega;330.79;3592;60
+Calle;Picos De Europa;211.88;3600;29
+Calle;Ordesa;157.49;3601;29
+Calle;Gredos;268.79;3604;29
+Calle;Segovia;341.77;3630;32
+Calle;La Habana;653.77;3635;32
+Calle;La Habana;653.77;3635;71
+Calle;San Petersburgo;720.73;3640;32
+Calle;German Sellers De Paz;190.31;3647;4
+Calle;Lucas Burgos Capdevielle;73.01;3648;4
+Calle;Santiago Caldera;118.69;3664;50
+Calle;Gonzalo Mingo;442.58;3665;50
+Calle;Islas Canarias;846.34;3666;60
+Calle;Islas Canarias;846.34;3666;68
+Calle;Islas Cies;437.4;3729;60
+Calle;Mar De Bering;364.83;3731;13
+Calle;Pedro De Ibarra;478.99;3734;17
+Calle;Pedro De Ibarra;478.99;3734;50
+Calle;Arsenio Gallego Hernandez;873.55;3740;17
+Calle;Arsenio Gallego Hernandez;873.55;3740;50
+Calle;Arsenio Gallego Hernandez;873.55;3740;51
+Calle;Lucas De Burgos;164.78;3742;50
+Calle;Ocho De Marzo;329.57;3758;50
+Calle;Llanos De Caceres;550.39;3767;77
+Calle;Sierra De La Mosca;60.24;3768;77
+Calle;Casas Del Monte;309.19;3846;7
+Calle;Muñoz Torrero;206.77;3868;24
+Calle;Juan Ramon Marchena;136.9;3869;75
+Calle;Pedro Nuñez Llanos;319.56;3872;42
+Calle;Pedro Nuñez Llanos;319.56;3872;75
+Calle;Los Serranillos;284.41;3905;40
+Calle;Maria Antonia Fuertes;637.25;3911;38
+Calle;Alonso Zamora Vicente;397.74;3912;38
+Calle;Manuel Alvar Lopez;464.01;3913;38
+Calle;Antonio Hernandez Gil;530.58;3915;38
+Calle;Juan Manuel Rozas;521.35;3916;38
+Calle;Jose Antonio Fernandez Ordoñez;448.04;3918;38
+Calle;Huerta Del Conde;155.18;3956;47
+Calle;De La Trashumancia;751.19;3990;37
+Calle;La Calzada;398.3;3991;37
+Calle;Andrada;64.45;34;52
+Plaza;Del Socorro;39.71;3547;52
+Plaza;Del Socorro;39.71;3547;9
+Calle;Rincon De La Monja;131.28;410;65
+Calle;Barrio De San Antonio;160.75;3487;65
+Plaza;De Las Candelas;43.72;100;10
+Calle;Teniente Ruiz;72.9;3414;53
+Plaza;8 De Septiembre;148.99;3423;15
+Plaza;8 De Septiembre;148.99;3423;16
+Plaza;De Noruega;137.61;3613;23
+Calle;Mar De Marmara;70.92;3727;13
+Calle;Juan Rodriguez De Molina;454.66;3299;50
+Plaza;De España;84.78;3115;2
+Cuesta;De Aldana;170.4;773;65
+Cuesta;De La Compañía;86.3;3570;65
+Paseo;De Los Conquistadores;179.3;2084;1
+Calle;Ovando;161.29;999;1
+Avda;Cordel De Merinas;843.6;3930;51
+Avda;Cordel De Merinas;843.6;3930;56
+Ctra;Del Casar;6881.36;2271;20
+Ctra;Del Casar;6881.36;2271;21
+Ctra;De Badajoz;37052.48;4006;6
+Ctra;De Badajoz;37052.48;4006;71
+Ctra;De Badajoz;37052.48;4006;77
+Ctra;De Trujillo;23167.83;514;46
+Calle;Puente De La Mocha;125.78;3987;37
+Calle;Torre De Floripes;386.65;3988;37
+Calle;Jean Henry Dunant;77.84;3413;17
+Plzla;De Santo Domingo;66.39;3599;52
+Calle;Cerro De Los Pinos;358.37;3655;4
+Cuesta;Del Palancar;102.45;4013;11
+Calle;Villalobos;235.32;533;9
+Trva;Rio Turia;68.13;516;25
+Ctra;De Salamanca;7718.49;454;58
+Trva;General Margallo;34.59;4015;53
+Cuesta;Del Maestre;53.42;292;9
+Trva;Pizarro;24.16;387;10
+Trva;Pizarro;24.16;387;8
+Trva;Tenerias Altas;75.87;4025;66
+Paseo;De Juan De Borbon Y Battenberg;399.28;3745;60
+Ctra;De Medellin;11174.3;2848;13
+Ctra;De Medellin;11174.3;2848;43
+Trva;Alfonso Ix;58.89;18;8
+Calle;Joaquin Turina;490.36;4109;43
+Calle;Jose Redondo;287.11;3139;20
+Ctra;De La Montaña;2254.33;1024;14
+Calle;Rio Alagon;301.57;3382;55
+Plaza;Conde De Canilleros;37.44;3644;65
+Trase;Isabel De Moctezuma;220.84;4016;22
+Calle;Monaco;88.77;318;19
+Calle;Hernan Cortes;142.92;3118;2
+Ctra;De Torrejon El Rubio;13860.26;4020;
+Ctra;De Merida;18082.92;2564;
+Ctra;De Valencia De Alcantara;3620.29;524;
+Avda;Conde De Gamazo;346.17;2148;3
+Avda;Del Ferrocarril;2018.61;4142;26
+Avda;Del Ferrocarril;2018.61;4142;29
+Avda;Del Ferrocarril;2018.61;4142;30
+Avda;Del Ferrocarril;2018.61;4142;48
+Avda;Del Ferrocarril;2018.61;4142;57
+Avda;De La Bondad;821.41;578;27
+Avda;De La Bondad;821.41;578;54
+Avda;De La Bondad;821.41;578;73
+Avda;De La Bondad;821.41;578;74
+Calle;Rosario;63.64;1061;70
+Calle;Castaño;32.97;115;27
+Calle;Cerezo;92.99;123;27
+Calle;Constancia;176.06;142;62
+Calle;Constancia;176.06;142;64
+Calle;Palancares;160.21;1574;1
+Calle;Encina;161.29;175;21
+Calle;Santa Vera Cruz;85;1906;21
+Calle;Generosidad;98.96;220;14
+Calle;De La Gloria;58.41;224;65
+Calle;Doña Teresa;337.76;2477;6
+Calle;De La Bola;70.22;2559;1
+Calle;Jara;29.47;258;27
+Calle;Amistad;119.63;29;14
+Calle;De La Monja;99.84;3170;65
+Calle;Sanchez;73.86;3234;8
+Calle;Moreras;67.99;329;9
+Calle;Alondra;82.44;3327;4
+Calle;Cigüeña;118.53;3333;4
+Calle;Golondrina;139.65;3335;4
+Calle;Tortola;138.48;3336;4
+Calle;La Perdiz;92.15;3341;4
+Calle;Paloma;65.4;3342;4
+Calle;Barriada El Chato;163.84;3479;7
+Calle;Barrio Antiguo;113.84;3564;3
+Calle;Bellavista;95.23;3565;11
+Calle;Olivo;30.4;357;27
+Calle;Olmos;122.12;358;65
+Calle;San Juan Del Puerto;423.96;3752;78
+Calle;Estafeta;64.16;3777;3
+Calle;Alegria;171.67;3845;50
+Calle;Los Romeros;430.11;3875;39
+Calle;Los Tomillos;529.53;3879;39
+Calle;Las Adelfas;320.67;3880;39
+Calle;Los Lirios;164.57;3881;39
+Calle;Los Jazmines;98.62;3883;39
+Calle;Los Geranios;143.15;3884;39
+Calle;Los Abedules;182.78;3885;39
+Calle;Los Abetos;94.9;3886;39
+Calle;Los Sauces;424.22;3888;39
+Calle;Los Tilos;362.08;3889;39
+Calle;Los Fresnos;318.6;3890;39
+Calle;Los Laureles;77.38;3891;39
+Calle;Los Enebros;181.2;3892;39
+Calle;Los Espliegos;93.64;3893;39
+Calle;Las Zarzamoras;137.52;3894;39
+Calle;Los Cipreses;317.78;3925;39
+Calle;De La Luz;217.58;3926;50
+Calle;Los Riberos;324.39;3933;51
+Calle;Barreron;135.69;3935;51
+Calle;Corvilla;129.27;3936;51
+Calle;Charca Del Oso;322.4;3938;51
+Calle;La Higuerilla;439.68;3939;51
+Calle;Ribera De Caceres;65.51;3947;51
+Calle;La Bula;223.26;3958;43
+Calle;La Bula;223.26;3958;47
+Calle;De La Cebada;147.94;3960;39
+Calle;De Las Magnolias;162.7;3981;39
+Calle;De Las Camelias;259.63;3982;39
+Calle;Los Halcones;465.55;4095;51
+Avda;De La Estacion;420.76;3775;3
+Avda;Pozo De La Nieve;337.38;3932;50
+Avda;Pozo De La Nieve;337.38;3932;51
+Calle;Concordia;303.01;1064;14
+Calle;Jilguero;138.79;3339;4
+Calle;Artesanos;154.72;3488;5
+Calle;Tolerancia;277.22;3759;50
+Calle;Miraflores;515.19;3874;39
+Calle;Las Margaritas;485.17;3876;39
+Calle;Las Violetas;373.35;3877;39
+Calle;Los Trigales;720.32;3878;39
+Calle;Las Retamas;213.5;3882;39
+Calle;Castellar;279.09;3900;40
+Calle;El Juncal;370.15;3942;51
+Calle;Madre De La Ribera;478.25;3957;47
+Calle;Caparros;142.31;4003;71
+Calle;Cordel De Ceres;127.62;4027;1
+Calle;Cueva De Tibiran;104.87;4062;44
+Calle;Las Codornices;164.85;4086;51
+Calle;Los Alimoches;476.4;4087;51
+Calle;Las Aguilas;629.44;4088;51
+Calle;Los Cernicalos;201.05;4089;51
+Calle;Las Abubillas;172.28;4090;51
+Calle;Las Grullas;633.69;4091;51
+Calle;Las Ocas;340.06;4093;51
+Calle;Los Gavilanes;417.87;4096;51
+Calle;Los Cormoranes;340.77;4098;51
+Calle;La Esperanza;74.43;4146;6
+Calle;Camino De Santa Lucia;368.63;4148;6
+Calle;De La Mina;463.52;4150;6
+Calle;Fuente Santa;203.43;4152;6
+Calle;Sierpes;138.64;473;10
+Calle;El Pinar;37.01;599;73
+Calle;Armonia;120.14;60;14
+Calle;Barrio San Jose;96.15;758;3
+Calle;Alamo;30.01;8;27
+Calle;Canario;140.75;99;4
+Plaza;Del Amor;96.1;1307;27
+Plaza;De La Caridad;51.72;1378;27
+Plaza;De Armas;93.63;2131;16
+Plaza;De La Fe;124.8;2189;27
+Plaza;Del Limonero;38.4;279;27
+Plaza;Fernand Montlahuc;229.54;3627;25
+Ronda;Norte;6038.99;4022;21
+Ronda;Norte;6038.99;4022;36
+Ronda;Norte;6038.99;4022;42
+Ronda;Norte;6038.99;4022;46
+Ronda;Norte;6038.99;4022;50
+Ronda;Norte;6038.99;4022;51
+Ronda;Norte;6038.99;4022;60
+Ronda;Norte;6038.99;4022;68
+Cllon;De Don Alvaro;75.21;3568;65
+Calle;El Roble;31.13;1358;27
+Calle;Los Almendros;171.91;3887;39
+Plaza;Del Madroño;64.95;1708;27
+Cuesta;De Los Artesanos;109.36;898;1
+Paseo;De La Virgen;91.13;1180;1
+Barro;Jareque;459.88;4026;3
+Cllon;Del Gallo;67.81;4012;65
+Plzla;De La Luz;36.72;983;1
+Cllon;De La Perenguana;78.52;4028;1
+Calle;Del Alba;168.95;3927;50
+Plaza;Del Peral;34.29;2528;27
+Plzla;De Don Alvaro;39.58;4007;8
+Cllon;Del Moral;104.57;1557;65
+Calle;Fuente Honda;81.13;4151;6
+Calle;Camino De Santa Olalla;419.86;4147;6
+Calle;Del Tranvia;281;4149;6
+Calle;Mina Estrella;349.08;4153;6
+Calle;El Lucero;216.01;4156;6
+Calle;La Perla;216.03;4155;6
+Calle;Demasia;216.06;4154;6
+Plaza;Nogal;25;349;27
+Cllon;De Doña Lola;28.93;4008;65
+Plaza;Del Naranjo;41.68;674;27
+Calle;Torneros;;4185;58
+Calle;Cordeleros;;4186;58
+Calle;Tratantes;;4187;58
+Calle;Niveladores;;4188;58
+Calle;Canteros;;4189;58
+Calle;Cencerreros;;4190;58
+Calle;Aguadores;;4191;58
+Calle;Cesteros;;4192;58
+Plaza;De Santa Maria;;2910;65
+Plaza;Tomas Martin Gil;;3126;20
+Plaza;Guillen Ferrant;;3187;17
+Plaza;Primero De Mayo;;3231;5
+Plaza;De España;;3241;7
+Plaza;De La Palmera;;3484;49
+Plaza;De Albatros;;3499;19
+Plaza;De Santiago;;3546;9
+Plaza;De San Pablo;;3595;65
+Plaza;De Islandia;;3614;23
+Plaza;De La Union Europea;;3618;12
+Plaza;De Andalucia;;4005;30
+Plaza;De La Universidad;;4010;16
+Plaza;San Blas;;4024;15
+Plaza;Manuel De Falla;;4099;43
+Plaza;De Argel;;56;21
+Plzla;Vicente Barbadillo;;3315;17
+Plzla;Roque Balduque;;3316;17
+Plaza;Dulcinea;;4014;27
+Plaza;De Santa Clara;;2552;10
+Plaza;Francisco Garcia Rebollo;;3924;4
+Calle;Candeleda;;3904;40
+Calle;Mercurio;;4177;14
+Plaza;Culturas Americanas;;4004;22
+Calle;Viviendas De Camineros;;2387;29
+Calle;Cañada;415.33;4019;71
+Avda;De La Constitucion;;3561;5
+Avda;De La Constitucion;;3561;7
+Avda;De La Constitucion;;3561;71
+Calle;Emilio Cardenal Hernandez;674.47;4049;33
+Calle;Emilio Cardenal Hernandez;674.47;4049;40
+Calle;Divino Morales;72.56;161;17
+Plzla;Del Agua;;4029;1
+Plaza;Foro De Los Balbos;;3574;52
+Calle;Casualidad;;3480;
+Calle;Severo Ochoa;748.63;4120;59
+Calle;Severo Ochoa;748.63;4120;39
+Calle;Severo Ochoa;748.63;4120;40
+Calle;Arquimedes;856.12;4131;59
+Calle;Leonardo Da Vinci;765.76;4132;59
+Calle;Sanchez Manzano;147.38;460;22
+Calle;Teruel;101.74;502;21
+Calle;Juan Ramon Jimenez;257.91;4034;33
+Calle;Vicente Aleixandre;212.56;4036;33
+Calle;Jose De Espronceda;610.26;4038;33
+Calle;Antonio Machado;364.36;4043;33
+Calle;Salvador Dali;68.49;4047;33
+Calle;Juan Jose Narbon;204.38;4048;33
+Calle;Juan Jose Narbon;204.38;4048;40
+Calle;Juan Jose Narbon;204.38;4048;50
+Calle;Cueva De La Becerra;331.84;4060;32
+Calle;Cueva De La Becerra;331.84;4060;44
+Calle;Cueva De Gargas;187.81;4061;44
+Calle;Cueva Del Castillo;311.17;4064;44
+Calle;Cueva De Lascaux;159.89;4067;44
+Calle;Cueva Font De Gaume;153.44;4068;44
+Calle;Cueva De Atapuerca;315.86;4069;44
+Calle;Reyes Catolicos;264.84;409;64
+Calle;Las Avutardas;383.49;4094;51
+Calle;Rio Volga;243.83;413;5
+Calle;Dalia;1559.64;4145;49
+Calle;San Roque;162.77;450;47
+Calle;Tenerias;346.19;500;66
+Calle;Tenerias;346.19;500;9
+Calle;Venezuela;379.8;529;54
+Calle;San Jose;304.29;654;53
+Calle;San Jose;304.29;654;62
+Calle;Berrocala;204.23;80;62
+Calle;Caleros;411.58;95;66
+Calle;Caleros;411.58;95;9
+Calle;Escampleros;182.08;966;68
+Plaza;De San Francisco;261.17;1619;10
+Plaza;De San Francisco;261.17;1619;47
+Plaza;De San Francisco;261.17;1619;70
+Plaza;Manuel Garcia Tome;47.96;3576;3
+Ronda;Del Sol;358.73;1445;1
+Ronda;Del Matadero;247.11;3527;15
+Ronda;Puente Vadillo;1229.52;398;14
+Ronda;Puente Vadillo;1229.52;398;45
+Ronda;Puente Vadillo;1229.52;398;46
+Ronda;Puente Vadillo;1229.52;398;66
+Cuesta;De La Reina;126.8;151;21
+Calle;Valeriano Gutierrez Macias;693.73;4044;33
+Calle;Los Milanos;788.5;4097;51
+Calle;Buscarruidos;121.9;89;14
+Plaza;Patio De Viajeros;212.61;3778;3
+Ronda;Del Aire;114.44;3496;1
+Ronda;De Arrancajaras;175.59;2076;1
+Plaza;Bruselas;;88;19
+Ronda;Del Carmen;437.82;3507;11
+Ronda;Del Carmen;437.82;3507;35
