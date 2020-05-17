@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : algoritmos.h
 // Author      : Profesores de la asignatura EDI
-// Version     : 2019/20
+// Version     : 2019/20123asfdsa
 // Copyright   : Your copyright notice
 // Description : clase para realizar algoritmos del proyecto
 //============================================================================
