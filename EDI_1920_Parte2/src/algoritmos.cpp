@@ -76,6 +76,15 @@ bool bSalir=false;
     strNombre="Bur";
     buscarEmpiezaBar(strNombre);
 
+    cout<<"ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada"<<endl;
+    //cout<<"Dame el nombre tipo de la vía:"<<endl;
+    //getline(cin >> ws,strTipo);
+    //cout<<"Dame el nombre de la calle:"<<endl;
+    //getline(cin >> ws,strNombre);
+    strTipo="Calle";
+    strNombre="Pizarro";
+    escribirCalleBar(strTipo,strNombre);
+
 	// TODO invovar a todos los algoritmos para que se ejecuten secuencialemente
 /*
     // Algoritmo 1 Parte 1
