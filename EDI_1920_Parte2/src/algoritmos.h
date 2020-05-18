@@ -56,6 +56,7 @@ private:
 	void arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre="",bool bEntero=false);
 	void escribirBar(string strBar, ofstream &f,string strCalle="",bool bEntero=false);
 	void escribirBaresLista(ofstream &f);
+	void escribirBarTipoCapacidad(string strTipo,int capacidad);
 
 	void anadirBarOrdenado(string strNombre);
 	/*

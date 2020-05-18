@@ -77,13 +77,14 @@ bool bSalir=false;
     buscarEmpiezaBar(strNombre);
 
     cout<<"ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada"<<endl;
-    //cout<<"Dame el nombre tipo de la vía:"<<endl;
+    //cout<<"Dame el tipo de comida:"<<endl;
     //getline(cin >> ws,strTipo);
-    //cout<<"Dame el nombre de la calle:"<<endl;
+    //cout<<"Dame a partir de que capacidad:"<<endl;
     //getline(cin >> ws,strNombre);
-    strTipo="Calle";
-    strNombre="Pizarro";
-    escribirCalleBar(strTipo,strNombre);
+    //cin>>iOpccion;
+    iOpccion=40;
+    strNombre="TAPAS";
+    escribirBarTipoCapacidad(strNombre,iOpccion);
 
 	// TODO invovar a todos los algoritmos para que se ejecuten secuencialemente
 /*
@@ -680,6 +681,40 @@ ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
 		}
 
 }
+
+void Algoritmos::escribirBarTipoCapacidad(string strTipo,int capacidad) {
+	KeyValue< string,bar> *keyValu;
+	BSTree<int>   *bBaresCapacidad;
+
+	bBaresCapacidad = new BSTree<int> ();
+	ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
+
+		if (!fichero.is_open())
+				cout<<"El fichero Datos.txt, no se puede abrir"<<endl;
+		else
+			if (!bBares->empty()) {
+				fichero<<"ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada."<<endl;
+				//Generamos estructura lista ordenada
+				//arbolAFicheroEmpiezaNombre(bBares,strNombre,false);
+				//Escribimos lista en fichero
+				//Recorremos todos los vares de esta via
+				fichero<<"Tipos de comidas:"<<strTipo<<",capacidad> "<<capacidad<<endl;
+				for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
+						bares.consultar(bBar);
+
+						if (bBar.getCapacidad()>=capacidad) {
+							//keyValu=new KeyValue(bBar.getNombre(),bBar);
+
+							//bBaresCapacidad->insert(bBar);
+							//fichero<<bBar.getNombre()<<"\t\tPax "<<bBar.getCapacidad()<<"\t"<<siNo<<"\t" <<bBar.getTipoComida()<<endl;
+						}
+				}
+
+				//escribirBaresLista(fichero);
+				fichero.close();
+			}
+}
+
 
 /********************************************************************************************
   Algoritmos::~Algoritmos()
