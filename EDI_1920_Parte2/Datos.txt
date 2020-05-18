@@ -331,3 +331,71 @@ Burger King 2 pax:100
 Burger King 1 pax:80
 Burger King 3 pax:50
 Burgos pax:45
+
+ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada.
+100 Montaditos pax:50 TAPAS
+Al-Andalus 1 pax:40 TAPAS
+Al-Andalus 2 pax:60 TAPAS
+Baco pax:40 TAPAS
+Bebe y Come pax:45 TAPAS
+Beluga pax:40 TAPAS
+Buddha Tapas&Copas pax:40 TAPAS
+Camelot Cafés y Tapas pax:40 TAPAS
+Carey pax:40 TAPAS
+Cataleya pax:40 TAPAS
+Centro de Servicios al Transporte (I.T.V.) pax:48 TAPAS
+Charlotte pax:40 TAPAS
+Ciudad Deportiva  pax:60 TAPAS
+Dory's pax:55 TAPAS
+El Encinar pax:110 TAPAS
+El Gran Café pax:48 TAPAS
+El Montaito 1 pax:60 TAPAS
+El Montaito 2 pax:50 TAPAS
+El Nuevo Mesón pax:40 TAPAS
+El Olivar  pax:45 TAPAS
+El Pato pax:40 TAPAS
+El Pirata Bar pax:50 TAPAS
+Emeritus pax:40 TAPAS
+Esencia pax:45 TAPAS
+FanBar pax:55 TAPAS
+La Cacharrería pax:70 TAPAS
+La Chicha pax:40 TAPAS
+La Dehesa pax:40 TAPAS
+La Estancia pax:50 TAPAS
+La Majá pax:45 TAPAS
+La Tapería pax:40 TAPAS
+La Terraza del Príncipe pax:40 TAPAS
+La comarca pax:40 TAPAS
+Las Cancelas pax:40 TAPAS
+Las Macetas  pax:40 TAPAS
+Lizarrán 1 pax:40 TAPAS
+Londres pax:40 TAPAS
+Los Andares pax:40 TAPAS
+Los Baldíos pax:55 TAPAS
+Los Portales pax:40 TAPAS
+Maillard pax:55 TAPAS
+Mandía pax:50 TAPAS
+Manómetro pax:40 TAPAS
+Mastropiero pax:80 TAPAS
+Montesol pax:40 TAPAS
+Neptuno  pax:70 TAPAS
+Ornella pax:40 TAPAS
+Perhaps pax:40 TAPAS
+Plata Domínguez pax:40 TAPAS
+Potosí pax:45 TAPAS
+Quereles pax:40 TAPAS
+Salas pax:40 TAPAS
+Santa Marta pax:40 TAPAS
+Sanvi Bar pax:40 TAPAS
+Servicio al Viajero pax:40 TAPAS
+Taberna del Refugio pax:55 TAPAS
+Tapería Santisteban pax:90 TAPAS
+Triple 20 pax:50 TAPAS
+Tápara pax:40 TAPAS
+Vilches pax:40 TAPAS
+Vulcano pax:45 TAPAS
+Zeppelin pax:42 TAPAS
+Zeri’s Coffee Roaster pax:40 TAPAS
+
+ALGORITMO 7 Barrio con más bares:Canovas nº de bares:52
+

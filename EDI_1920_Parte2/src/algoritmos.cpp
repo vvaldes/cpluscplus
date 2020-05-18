@@ -44,50 +44,77 @@ int main () {
  Autor:Victor Valdes
  *********************************************************************************************/
 void Algoritmos::run() {
-int iOpccion,iMas,iCodigoBarrio,iCodigoBarrioMas;
-string strNombre,strNombre1,strTipo;
-bool bSalir=false;
+
+	parte2();
+
+//	parte1();
+}
+
+/********************************************************************************************
+void Algoritmos::parte2() {
+   Ejecución con todos los algoritmos pedidos
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+void Algoritmos::parte2() {
+	int iOpccion;
+	string strNombre,strNombre1,strTipo;
 
 
-	//PARTE 2
-    cout<<"ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso."<<endl;
-    this->arbolAFichero();
+		//PARTE 2
+	    cout<<"ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso."<<endl;
+	    this->arbolAFichero();
 
-    cout<<"ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)"<<endl;
-    //cout<<"Dame el nombre tipo de la vía:"<<endl;
-    //getline(cin >> ws,strTipo);
-    //cout<<"Dame el nombre de la calle:"<<endl;
-    //getline(cin >> ws,strNombre);
-    strTipo="Calle";
-    strNombre="Pizarro";
-    escribirCalleBar(strTipo,strNombre);
-
-
-    cout<<"ALGORITMO 3 Buscar y mostrar un bar junto con el nombre de la vía donde."<<endl;
-    //cout<<"Dame el nombre del bar:"<<endl;
-    //getline(cin >> ws,strNombre);
-    strNombre="Puerta de Mérida";
-    buscarBar(strNombre);
+	    cout<<"ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)"<<endl;
+	    cout<<"Dame el nombre tipo de la vía:"<<endl;
+	    getline(cin >> ws,strTipo);
+	    cout<<"Dame el nombre de la calle:"<<endl;
+	    getline(cin >> ws,strNombre);
+	    //strTipo="Calle";
+	    //strNombre="Pizarro";
+	    escribirCalleBar(strTipo,strNombre);
 
 
-    cout<<"ALGORITMO 4 Bares cuyos nombres comienzan por una determinada raíz,ordenados por capacidad."<<endl;
-    //cout<<"Dame el nombre del bar:"<<endl;
-    //getline(cin >> ws,strNombre);
-    strNombre="Bur";
-    buscarEmpiezaBar(strNombre);
+	    cout<<"ALGORITMO 3 Buscar y mostrar un bar junto con el nombre de la vía donde."<<endl;
+	    cout<<"Dame el nombre del bar:"<<endl;
+	    getline(cin >> ws,strNombre);
+	    //strNombre="Puerta de Mérida";
+	    buscarBar(strNombre);
 
-    cout<<"ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada"<<endl;
-    //cout<<"Dame el tipo de comida:"<<endl;
-    //getline(cin >> ws,strTipo);
-    //cout<<"Dame a partir de que capacidad:"<<endl;
-    //getline(cin >> ws,strNombre);
-    //cin>>iOpccion;
-    iOpccion=40;
-    strNombre="TAPAS";
-    escribirBarTipoCapacidad(strNombre,iOpccion);
+
+	    cout<<"ALGORITMO 4 Bares cuyos nombres comienzan por una determinada raíz,ordenados por capacidad."<<endl;
+	    cout<<"Dame el nombre del bar:"<<endl;
+	    getline(cin >> ws,strNombre);
+	    //strNombre="Bur";
+	    buscarEmpiezaBar(strNombre);
+
+	    cout<<"ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada"<<endl;
+	    cout<<"Dame el tipo de comida:"<<endl;
+	    getline(cin >> ws,strNombre);
+	    cout<<"Dame a partir de que capacidad:"<<endl;
+	    cin>>iOpccion;
+	    //iOpccion=40;
+	    //strNombre="TAPAS";
+	    escribirBarTipoCapacidad(strNombre,iOpccion);
+
+
+	    cout<<"ALGORITMO 7 Barrio con más bares:"<<endl;
+	    barrioMasBares();
+}
+
+/********************************************************************************************
+void Algoritmos::parte1() {
+   Ejecución con todos los algoritmos pedidos en la parte 1
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+void Algoritmos::parte1() {
+	int iOpccion,iMas,iCodigoBarrio,iCodigoBarrioMas;
+	string strNombre,strNombre1,strTipo;
+	bool bSalir=false;
 
 	// TODO invovar a todos los algoritmos para que se ejecuten secuencialemente
-/*
+
     // Algoritmo 1 Parte 1
     cout<<"Dame el codigo  del barrio del que quieres ver las vias que contiene:"<<endl;
     //getline(cin >> ws,strNombre);
@@ -199,9 +226,7 @@ bool bSalir=false;
     	if (bBarrio.getCodigoBarrio()==iCodigoBarrioMas)
     		cout<<"Distrito:"<<bBarrio.getDistrito()<<" con:"<<iMas<<" barrios"<<endl;
     }
-*/
 }
-
 /********************************************************************************************
 void Algoritmos::cargarDatos()
    Carga los datos de los ficheros .csv y los almacena en listas dinámicas
@@ -217,6 +242,10 @@ Modifica:
 	ListaPI<barrio> barrios;
 	ListaPI<via> vias;
 	ListaPI<bar> bares;
+
+	Modifica :
+	//Arbol con los bares
+	BSTree<string> *bBares;
  *********************************************************************************************/
 void Algoritmos::cargarDatos() {
 	// TODO realizar la lectura del fichero de barrios y después el de vías
@@ -463,6 +492,18 @@ Algoritmos::Algoritmos() {
     run();
 }
 
+/********************************************************************************************
+void Algoritmos::escribirBar(string strBar, ofstream &f,string strCalle,bool bEntero) {
+   Escribe en fichero información del bar a partir del nombre del bar
+   Entrada:
+   string strBar: Nombre del bar
+   ofstream &f: ofstream del fichero ya abierto
+   string strCalle: calle
+   bool bEntero: listado completo o no
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+
 void Algoritmos::escribirBar(string strBar, ofstream &f,string strCalle,bool bEntero) {
 	string siNo;
 
@@ -482,6 +523,13 @@ void Algoritmos::escribirBar(string strBar, ofstream &f,string strCalle,bool bEn
 
 }
 
+/********************************************************************************************
+int Algoritmos::numElementos(BSTree<string> *bst) {
+   Retorna el nº de elementos del arbol
+   Entrada: arbol
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 int Algoritmos::numElementos(BSTree<string> *bst) {
 
 
@@ -494,6 +542,15 @@ int Algoritmos::numElementos(BSTree<string> *bst) {
 	return cuantos;
 
 }
+/********************************************************************************************
+void Algoritmos::arbolAFicheroArbol(BSTree<string> *bts, ofstream &f) {
+   Escribe en fichero ya abierto el arbol en recorrido contrario a inorden.
+   Entrada:
+		BSTree<string> *bts: arbol
+		ofstream &f: fichero
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 //RECORRIDO INVERSO DERECHO CENTRO Y POR ULTIMO IZQUIERDO
 void Algoritmos::arbolAFicheroArbol(BSTree<string> *bts, ofstream &f) {
     BSTree<string> *aux;
@@ -517,7 +574,17 @@ void Algoritmos::arbolAFicheroArbol(BSTree<string> *bts, ofstream &f) {
     }
 }
 
-
+/********************************************************************************************
+void Algoritmos::arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre,bool bEntero) {
+   Escribe en fichero ya abierto informacion de un bar
+   Entrada:
+		BSTree<string> *bts: arbol
+		ofstream &f: fichero
+		string strNombre: nombre del bar
+		bool bEntero: listado completo o no
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 void Algoritmos::arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre,bool bEntero) {
     BSTree<string> *aux;
 
@@ -542,6 +609,16 @@ void Algoritmos::arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string str
     }
 }
 
+/********************************************************************************************
+void Algoritmos::anadirBarOrdenado(string strNombre){
+   Genera lista ordenada de bares por capacidad
+   Entrada:
+   strNombre: nombre bar
+	Modifica:
+	ListaPI<bar> *baresOrdenada;  //lista ordenada por capacidad de bares
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 void Algoritmos::anadirBarOrdenado(string strNombre){
 	bool bSalir=false;
 
@@ -568,6 +645,18 @@ void Algoritmos::anadirBarOrdenado(string strNombre){
 
 }
 
+/********************************************************************************************
+void Algoritmos::arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre,bool bEntero) {
+   Genera lista ordenada de bares por capacidad
+   Entrada:
+   BSTree<string> *bts:arbol bares
+   string strNombre: nombre subcadena de un bar
+   bool bEntero: listado entero o no
+	Modifica:
+	ListaPI<bar> *baresOrdenada;  //lista ordenada por capacidad de bares
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 
 void Algoritmos::arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre,bool bEntero) {
     BSTree<string> *aux;
@@ -596,6 +685,14 @@ void Algoritmos::arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombr
     }
 }
 
+/********************************************************************************************
+void Algoritmos::arbolAFichero() {
+   recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso
+   Entrada:
+   Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 void Algoritmos::arbolAFichero() {
 
 ofstream fichero("Datos.txt");
@@ -611,6 +708,17 @@ ofstream fichero("Datos.txt");
 		}
 
 }
+
+/********************************************************************************************
+void Algoritmos::escribirCalleBar(string strTipo,string calle) {
+   ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía
+   Entrada:
+   string strTipo: tipo via
+   string calle: nombre de la calle
+   Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 
 void Algoritmos::escribirCalleBar(string strTipo,string calle) {
 string siNo;
@@ -637,6 +745,16 @@ string siNo;
 
 }
 
+/********************************************************************************************
+void Algoritmos::buscarBar(string strNombre) {
+   ALGORITMO 3 Buscar y mostrar un bar junto con el nombre de la vía donde.
+   Entrada:
+   string strNombre: nombre
+   Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+
 void Algoritmos::buscarBar(string strNombre) {
 
 ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
@@ -652,6 +770,16 @@ ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
 
 }
 
+/********************************************************************************************
+void Algoritmos::escribirBaresLista(ofstream &f) {
+   Escribe en fichero ya abierto la lista de los bares ordenada por capacidad
+   Entrada:
+   ofstream &f: fichero abierto
+   Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+
 void Algoritmos::escribirBaresLista(ofstream &f) {
 
 	if (baresOrdenada!=NULL) {
@@ -661,9 +789,20 @@ void Algoritmos::escribirBaresLista(ofstream &f) {
 			f<<bBar.getNombre()<<" pax:"<<bBar.getCapacidad()<<endl;
 			baresOrdenada->avanzar();
 		}
+		f<<endl;
 	}
 }
 
+
+/********************************************************************************************
+void Algoritmos::buscarEmpiezaBar(string strNombre) {
+   ALGORITMO 4 Bares cuyos nombres comienzan por una determinada raíz, ordenados por capacidad
+   Entrada:
+   string strNombre: cadena por donde empieza el nombre del bar
+   Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
 void Algoritmos::buscarEmpiezaBar(string strNombre) {
 
 ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
@@ -682,11 +821,86 @@ ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
 
 }
 
-void Algoritmos::escribirBarTipoCapacidad(string strTipo,int capacidad) {
-	KeyValue< string,bar> *keyValu;
-	BSTree<int>   *bBaresCapacidad;
 
-	bBaresCapacidad = new BSTree<int> ();
+/********************************************************************************************
+bar *Algoritmos::nodoBar(string strNombre, string strTipo,int capacidad){
+   Retorna un puntero a la clase bar que coincide con su nombre , tipo
+   Entrada:
+	string strNombre: nombre bar
+	string strTipo: tipo comida
+	int capacidad:capacidad bar
+   Salida:
+    Puntero clase bar
+   Modifica: Datos.txt
+
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+
+bar *Algoritmos::nodoBar(string strNombre, string strTipo,int capacidad){
+
+	for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
+			bares.consultar(bBar);
+			if ((bBar.getTipoComida()==strTipo) && (bBar.getNombre()==strNombre) && (bBar.getCapacidad()>=capacidad))
+				return &bBar;
+
+	}
+return NULL;
+}
+
+
+/********************************************************************************************
+void Algoritmos::arbolAFicheroCapacidad(BSTree<string> *bts, ofstream &f,string strTipo,int capacidad) {
+   Recorre el arbol de bares y escribe información del bar
+   Entrada:
+	BSTree<string> *bts:arbol bares
+	ofstream &f: fichero ya abierto
+	string strTipo: tipo comida
+	int capacida: mayores que dicha capacidad
+ Salida:
+ Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+void Algoritmos::arbolAFicheroCapacidad(BSTree<string> *bts, ofstream &f,string strTipo,int capacidad) {
+    BSTree<string> *aux;
+    string cadena;
+    bar *pBar=NULL;
+
+    if (! bts->empty()) {
+
+    	aux = bts->left();
+        if (aux != NULL) {
+        	arbolAFicheroCapacidad(aux,f,strTipo,capacidad);
+        	//arbolAFicheroEmpiezaNombre(aux,strNombre,bEntero);
+        }
+
+        cadena=bts->root();
+        pBar=nodoBar(cadena,strTipo,capacidad);
+        if (pBar!=NULL)
+        	f<<pBar->getNombre()<<" pax:"<<pBar->getCapacidad()<<" "<<pBar->getTipoComida()<<endl;
+
+        aux = bts->right();
+        if (aux != NULL) {
+        	arbolAFicheroCapacidad(aux,f,strTipo,capacidad);
+        }
+
+    }
+}
+
+/********************************************************************************************
+void Algoritmos::escribirBarTipoCapacidad(string strTipo,int capacidad) {
+   ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada.
+   Entrada:
+	string strTipo: tipo comida
+	int capacidad: mayores que dicha capacidad
+ Salida:
+ Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+void Algoritmos::escribirBarTipoCapacidad(string strTipo,int capacidad) {
+
 	ofstream fichero("Datos.txt",std::ofstream::out | std::ofstream::app);
 
 		if (!fichero.is_open())
@@ -694,26 +908,145 @@ void Algoritmos::escribirBarTipoCapacidad(string strTipo,int capacidad) {
 		else
 			if (!bBares->empty()) {
 				fichero<<"ALGORITMO 6 Lista de bares que sirvan un determinado tipo de comida y cuya capacidad sea superior a una dada."<<endl;
-				//Generamos estructura lista ordenada
-				//arbolAFicheroEmpiezaNombre(bBares,strNombre,false);
-				//Escribimos lista en fichero
-				//Recorremos todos los vares de esta via
-				fichero<<"Tipos de comidas:"<<strTipo<<",capacidad> "<<capacidad<<endl;
-				for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
-						bares.consultar(bBar);
-
-						if (bBar.getCapacidad()>=capacidad) {
-							//keyValu=new KeyValue(bBar.getNombre(),bBar);
-
-							//bBaresCapacidad->insert(bBar);
-							//fichero<<bBar.getNombre()<<"\t\tPax "<<bBar.getCapacidad()<<"\t"<<siNo<<"\t" <<bBar.getTipoComida()<<endl;
-						}
-				}
-
 				//escribirBaresLista(fichero);
+				arbolAFicheroCapacidad(bBares,fichero,strTipo,capacidad);
+				fichero<<endl;
 				fichero.close();
 			}
 }
+
+/********************************************************************************************
+int Algoritmos::baresVias(ListaPI<via> *pVia) {
+   Retorna los bares que tiene una lista de vias;
+   Entrada:
+	ListaPI<via> *pVia: Lista de vias que tiene el barrio
+ Salida:
+ 	 int: nº de vias;
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+int Algoritmos::baresVias(ListaPI<via> *pVia) {
+	ListaPI<via> *lVias=pVia;	//puntero de lista de vias
+	via via1;
+	int nBares=1;
+
+	if (lVias!=NULL) {
+		lVias->moverInicio();
+		while (lVias->finLista()==false) {
+			lVias->consultar(via1);
+
+			for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
+					bares.consultar(bBar);
+					if (bBar.getCodigoVia()==via1.getCodigoVia())
+							nBares++;
+			}
+
+			lVias->avanzar();
+		}
+	}
+
+	return nBares;
+}
+
+/********************************************************************************************
+void Algoritmos::baresBarrios(barrio *pBar,ofstream &f) {
+   A partir de un barrio , recorremos sus vias par ver los bares que contiene
+   Entrada:
+	barrio *pBar: Puntero al barrio
+	ofstream &f: fichero
+ Salida:
+ Modifica: fichero Datos.txt
+
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+
+void Algoritmos::baresBarrios(barrio *pBar,ofstream &f) {
+	via via1;
+	ListaPI<via> *lVias=NULL;
+	string siNo;
+
+	if (pBar!=NULL) {
+		lVias=pBar->getVia();
+		if (lVias!=NULL) {
+			lVias->moverInicio();
+			while (lVias->finLista()==false) {
+				lVias->consultar(via1);
+
+				for (bares.moverInicio();bares.finLista()==false;bares.avanzar()) {
+						bares.consultar(bBar);
+						if (bBar.getCodigoVia()==via1.getCodigoVia()) {
+							siNo=bBar.getComida() ? "SI":"NO";
+							f<<bBar.getNombre()<<" Pax:"<<bBar.getCapacidad()<<" "<<siNo<<bBar.getTipoComida()<<endl;
+						}
+				}
+				lVias->avanzar();
+			}
+		}
+		f<<endl;
+	}
+}
+
+
+/********************************************************************************************
+void Algoritmos::barrioMasBares() {
+   Busca el barrio que más bares tiene
+   Entrada:
+ Salida:
+ Modifica: ficheros Datos.txt y calleMasBares.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+void Algoritmos::barrioMasBares() {
+	int iBares=0;
+	int iBares1=0;
+	ListaPI<via> *pVia,*pViaMas;
+	barrio barrioMas;
+
+	ofstream fichero1("Datos.txt",std::ofstream::out | std::ofstream::app);
+	ofstream fichero("calleMasBares.txt");
+
+//		if ((!fichero.is_open()) !! (!fichero1.is_open()))
+//				cout<<"El fichero calleMasBares.txt o Datos.txt, no se puede abrir"<<endl;
+//		else
+		if (fichero.is_open())
+			if (fichero1.is_open())
+			if (!bBares->empty()) {
+				fichero<<"ALGORITMO 7 Barrio con más bares:";
+				fichero1<<"ALGORITMO 7 Barrio con más bares:";
+
+				barrios.moverInicio();
+				barrios.consultar(bTemp);
+				while (barrios.finLista()==false) {
+					pVia=bTemp.getVia();
+					if (pVia) {
+						iBares1=baresVias(pVia);
+						if (iBares1>iBares) { //Si es el que más tiene almaceno barrio
+							pViaMas=pVia;
+							iBares=iBares1;
+							barrioMas=bTemp;
+						}
+					}
+					barrios.avanzar();
+					barrios.consultar(bTemp);
+				}
+
+
+				if (iBares) {
+					fichero<<barrioMas.getNombreBarrio()<<" nº de bares:"<<iBares<<endl;
+					fichero1<<barrioMas.getNombreBarrio()<<" nº de bares:"<<iBares<<endl;
+
+					//Escribimos los bares
+					baresBarrios(&barrioMas,fichero);
+				}
+				fichero<<endl;
+				fichero1<<endl;
+
+				fichero.close();
+				fichero1.close();
+			}
+}
+
 
 
 /********************************************************************************************

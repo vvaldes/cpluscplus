@@ -1,0 +1,54 @@
+ALGORITMO 7 Barrio con más bares:Canovas nº de bares:52
+Viceversa Pax:25 SITAPAS
+Foster's Hollywood Pax:30 SIAMERICANA
+La Cafetera Pax:25 SITAPAS
+Viña Grande Pax:30 SITAPAS
+Volapie Pax:30 SITAPAS
+Orense Pax:48 SIMEDITERRÁNEA
+Zeri’s Coffee Roaster Pax:40 SITAPAS
+Gran Via Pax:40 SIMEDITERRÁNEA
+Fulgen Tradicion Pax:25 SITAPAS
+Cauria Pax:30 SITAPAS
+Burger King 1 Pax:80 SIBURGUER
+El Fogon de Toñi Pax:30 SIMEDITERRÁNEA
+Tony's bocatas Pax:30 SIBOCADILLO
+Amara Pax:25 NO
+Palacio Imperial Pax:70 SICHINA
+La Mafia se sienta a la mesa  Pax:60 SIITALIANA
+Dallas Brunch Pax:25 SITAPAS
+Oquendo Pax:60 SIMEDITERRÁNEA
+Belmont Lounge Bar Pax:20 SITAPAS
+Lalola Pax:30 SITAPAS
+WyCo Pax:40 SIBOCADILLO
+La Marina Pax:35 SITAPAS
+La Tagliatella Pax:100 SIITALIANA
+Liceo Pax:50 SIMEDITERRÁNEA
+Zeppelin Pax:42 SITAPAS
+Alborada Pax:35 SIMEDITERRÁNEA
+Vulcano Pax:45 SITAPAS
+Karaoke DI-ALF Pax:70 NO
+Bariloche Pax:25 SITAPAS
+La Parisina Pax:30 SIPANADERÍA
+Los Andares Pax:40 SITAPAS
+La Taberna de Santi Pax:16 SITAPAS
+La Andaluza Pax:30 SITAPAS
+La Malinche Pax:30 SIMEJICANA
+Garden's Pax:35 NO
+AlcaraVán Gastroteca Pax:60 SIMEDITERRÁNEA
+Manolo Bakes Pax:20 SIPANADERÍA
+Más Que Tapas Pax:35 SITAPAS
+El Gran Café Pax:48 SITAPAS
+100 Montaditos Pax:50 SITAPAS
+Sibuya Urban Sushibar Pax:50 SIJAPONESA
+Ginos Pax:50 SIITALIANA
+Manómetro Pax:40 SITAPAS
+Aquario Pax:150 SIMEDITERRÁNEA
+Kiosco Colón Pax:30 NO
+Chocolatería Valor Pax:40 SI
+Mario & Marieta Pax:43 SIMEDITERRÁNEA
+Cameron Pax:150 NO
+El Nuevo Mesón Pax:40 SITAPAS
+Bodeguilla Pax:30 SITAPAS
+Mordisquitos Pax:40 SIBURGUER
+
+

@@ -35,7 +35,7 @@ private:
 	//Arbol con los bares
 	BSTree<string> *bBares;
 
-	ListaPI<bar> *baresOrdenada;
+	ListaPI<bar> *baresOrdenada; //Lista ordenada de bares por capacidad
 
 	//Bares con un determinado tipo comida
 	//Cola <bar> barTipo[];
@@ -48,21 +48,28 @@ private:
     // ejecuta todos los algoritmos del proyecto
 	void run ();
 
-	void buscarBar(string calle);
-	void buscarEmpiezaBar(string calle);
-	void escribirCalleBar(string strTipo,string calle);
-	void arbolAFicheroArbol (BSTree<string> *bts, ofstream &f);
-	void arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre="",bool bEntero=false);
-	void arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre="",bool bEntero=false);
-	void escribirBar(string strBar, ofstream &f,string strCalle="",bool bEntero=false);
-	void escribirBaresLista(ofstream &f);
-	void escribirBarTipoCapacidad(string strTipo,int capacidad);
+	void parte1();  //olgoritmos parte1
+	void parte2();  //olgoritmos parte2
 
-	void anadirBarOrdenado(string strNombre);
+	void buscarBar(string calle);						//Busca bar a partir del nombre
+	void buscarEmpiezaBar(string calle);				//Busca los bares que empiezan por ese nombre
+	void escribirCalleBar(string strTipo,string calle);	//Escribe a partir del tipo comida y nombre
+	void arbolAFicheroArbol (BSTree<string> *bts, ofstream &f);	//Escribe fichero a partir del arbol invertido
+	void arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre="",bool bEntero=false); //Escribe fichero a partir del arbol orden inverso
+	void arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre="",bool bEntero=false); //Escribe fichero con los bares que empiezan por nombre
+	void arbolAFicheroCapacidad(BSTree<string> *bts,ofstream &f,string strtipo,int capacidad ); //Escribe a partir del tipo comida y nombre del bar
+	void escribirBar(string strBar, ofstream &f,string strCalle="",bool bEntero=false);		//Escribe a partir del nombre del bar y la calle
+	void escribirBaresLista(ofstream &f);				//Escribe lista de los bares
+	void escribirBarTipoCapacidad(string strTipo,int capacidad);	//Escribe bar a partir tipo comida y capacidad
+	bar *nodoBar(string strNombre, string tipo,int capacidad);		//Retorna puntero a un barrio a partir nombre y tipo
+	void barrioMasBares();									//Escribe el barrio que tiene más bares
+	int baresVias(ListaPI<via> *pVia);						//Retorna el nº de bares que tiene 1 via
+	void baresBarrios(barrio *pBar,ofstream &f);			//Escribe los bares de 1 barrio, recorriendo la lista de vias
+	void anadirBarOrdenado(string strNombre);				//Añade bar ordenado a nº de capacidad
 	/*
 	 * Cuenta el número de nodos del árbol
 	 */
-	int numElementos(BSTree<string> *bst);
+	int numElementos(BSTree<string> *bst);					//Cuenta el nº de nodos del arbol
 public:
 
 	 Algoritmos();
