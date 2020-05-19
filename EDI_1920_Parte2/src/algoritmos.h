@@ -16,6 +16,7 @@
 #include "listapi.h"
 #include "cola.h"
 #include "bstree.h"
+#include "pila.h"
 
 
 class Algoritmos {
@@ -31,6 +32,7 @@ private:
 	ListaPI<barrio> barrios;
 	ListaPI<via> vias;
 	ListaPI<bar> bares;
+	ListaPI<bar> baresNombre;
 
 	//Arbol con los bares
 	BSTree<string> *bBares;
@@ -51,10 +53,12 @@ private:
 	void parte1();  //olgoritmos parte1
 	void parte2();  //olgoritmos parte2
 
+	void iterativoAFichero();
 	void buscarBar(string calle);						//Busca bar a partir del nombre
 	void buscarEmpiezaBar(string calle);				//Busca los bares que empiezan por ese nombre
 	void escribirCalleBar(string strTipo,string calle);	//Escribe a partir del tipo comida y nombre
 	void arbolAFicheroArbol (BSTree<string> *bts, ofstream &f);	//Escribe fichero a partir del arbol invertido
+	int arbolAFicheroIterativo(ofstream &f);			//Escribe fichero modo iterativo
 	void arbolAFicheroNombre(BSTree<string> *bts, ofstream &f,string strNombre="",bool bEntero=false); //Escribe fichero a partir del arbol orden inverso
 	void arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombre="",bool bEntero=false); //Escribe fichero con los bares que empiezan por nombre
 	void arbolAFicheroCapacidad(BSTree<string> *bts,ofstream &f,string strtipo,int capacidad ); //Escribe a partir del tipo comida y nombre del bar
@@ -74,7 +78,7 @@ public:
 
 	 Algoritmos();
 
-	void arbolAFichero();
+
 
      // Algoritmo  1 Parte 1, mostrar vías de un barrio:
 	 // Algoritmo  2 Parte 1:
