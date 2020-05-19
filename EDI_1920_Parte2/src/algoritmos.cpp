@@ -63,7 +63,7 @@ void Algoritmos::parte2() {
 
 		//PARTE 2
 	    cout<<"ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso."<<endl;
-	    this->arbolAFichero();
+	    this->iterativoAFichero();
 
 	    cout<<"ALGORITMO 2 Bares de una determinada vía (tipo de vía + nombre de la vía)"<<endl;
 	    cout<<"Dame el nombre tipo de la vía:"<<endl;
@@ -454,6 +454,22 @@ void Algoritmos::cargarDatos() {
         			//Insertamos bar en orden de via
         			bares.insertar(bBar);
 
+        			//insertamos bar en orden ASCENDENTE dentro lista ordenado por nombre
+        			baresNombre.moverInicio();
+        			baresNombre.consultar(bBarTemp);
+        			bSalir=false;
+        			while((baresNombre.finLista()==false) && (bSalir==false)) {
+        				if (bBarTemp.getNombre() > bBar.getNombre())
+        						bSalir=true;
+        				else {
+        					baresNombre.avanzar();
+        					baresNombre.consultar(bBarTemp);
+        				}
+        			}
+        			//Insertamos bar en orden de via
+        			baresNombre.insertar(bBar);
+
+
         			//Insertamos también en arbol binario por orden de nombre campo
         			bBares->insert(bBar.getNombre());
         		}
@@ -686,15 +702,45 @@ void Algoritmos::arbolAFicheroEmpiezaNombre(BSTree<string> *bts, string strNombr
 }
 
 /********************************************************************************************
-void Algoritmos::arbolAFichero() {
+int  Algoritmos::arbolAFicheroIterativo(ofstream &f) {
    recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso
    Entrada:
    Modifica: Datos.txt
  Fecha:18/5/2020
  Autor:Victor Valdes
  *********************************************************************************************/
-void Algoritmos::arbolAFichero() {
+int  Algoritmos::arbolAFicheroIterativo(ofstream &f) {
+	string siNo;
+	Pila<bar> *pPila= new Pila<bar> ();
+	int iNumero=0;
 
+	//Insertamos en pila para dar la buelta
+    for (baresNombre.moverInicio();baresNombre.finLista()==false;baresNombre.avanzar()) {
+    	baresNombre.consultar(bBar);
+    	pPila->apilar(bBar);
+    }
+
+	while (pPila->vacia()==false) {
+		pPila->cima(bBar);
+		siNo=(bBar.getComida()) ? " SI ":" NO ";
+		f<<bBar.getNombre()<<"  Pax: "<<bBar.getCapacidad()<<"\t"<<siNo<<"\t"<<bBar.getTipoComida()<<endl;
+		pPila->desapilar();
+		++iNumero;
+	}
+	delete(pPila);
+
+	return iNumero;
+}
+/********************************************************************************************
+void Algoritmos::iterativoAFichero() {
+   recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso
+   Entrada:
+   Modifica: Datos.txt
+ Fecha:18/5/2020
+ Autor:Victor Valdes
+ *********************************************************************************************/
+void Algoritmos::iterativoAFichero() {
+int numero;
 ofstream fichero("Datos.txt");
 
 	if (!fichero.is_open())
@@ -702,12 +748,18 @@ ofstream fichero("Datos.txt");
 	else
 		if (!bBares->empty()) {
 			fichero<<"ALGORITMO 1. recorrido iterativo sobre el árbol de bares.Bares en orden alfabético inverso."<<endl;
-			arbolAFicheroArbol(bBares,fichero);
-			fichero<<"Total bares del árbol en recorrido iterativo:" << numElementos(bBares)<<endl;
+			//Metodo recursivo
+			//arbolAFicheroArbol(bBares,fichero);
+			//Metodo iterativo
+			numero=arbolAFicheroIterativo(fichero);
+			//fichero<<"Total bares del árbol en recorrido iterativo:" << numElementos(bBares)<<endl;
+			fichero<<"Total bares del árbol en recorrido iterativo:" << numero<<endl;
 			fichero.close();
 		}
 
 }
+
+
 
 /********************************************************************************************
 void Algoritmos::escribirCalleBar(string strTipo,string calle) {
@@ -1062,6 +1114,7 @@ Algoritmos::~Algoritmos() {
 	barrios.~ListaPI();
 	vias.~ListaPI();
 	bares.~ListaPI();
+	baresNombre.~ListaPI();
 
 	if (bBares!=NULL)
 		delete bBares;
